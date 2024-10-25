@@ -1,0 +1,9 @@
+Os resultados deste capítulo referem-se oa gráfico de preço,volume e transações do \textit{Bitcoin}, em intervalos de 15 minutos, ao longo de 2020 (GMT -3). Foram utilizados dados da Binance no par BTC/USDT com uma implementação própria chamado BTools, cobrindo todo o ano (01/01/2020 a 31/12/2020), no qual representa 365 dias e 10000 entradas. 
+Esse conjunto de dados então foi armazenado em um arquivo CSV e posteriormente dividido em memória para o treinamento dos modelos supervisionados e ajustados para os estatísticos.
+
+\section{Tratamento e pré processamento de dados}
+O \textit{Dataset} não continha valores nulos ou faltantes, porém, foi necessário realizar a normalização através do método MinMaxScaler devido a diferentes ordens de grandeza entre as variáveis.
+Para o aprendizado supervisionado, os conjuntos de treinto, teste e validação foram divididos em 70\%, 20\% e 10\% respectivamente. 
+O janelamento utilizado foi de 24 entradas (6 horas) para prever o próximo valor de preço.
+
+No ARIMA foi utilizado o método de auto arima para encontrar os melhores parâmetros p, d e q com base no primeiro janelamento.

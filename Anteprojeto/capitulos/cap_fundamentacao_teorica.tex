@@ -1,0 +1,193 @@
+
+Este capítulo oferece o arcabouço teórico necessário para a compreensão da pesquisa em sí. 
+Portanto, serão abordados conceitos fundamentais relacionados
+a criptomoedas, \textit{blockchain}, redes neurais e previsão de séries temporais.
+\section{Bitcoin}
+\label{secao:bitcoin}
+
+A ideia de Ativos Digitais descentralizados baseados em criptografia, ou criptomoedas, foi marcada por inúmeras tentativs anteriores, contudo,
+só foi implementada com o advento da \textit{Blockchain} \cite{Moi}.
+Que é referida por \textcite{Yuan} como um registro compartilhado distribuído, no qual a verificação, armazenamento, manutenção e transmissão dos dados são baseados na confiança mútua entre as partes, estabelecida por meio de algoritmos matemáticos.
+Tal estrutura é formada por blocos que contêm um conjunto 
+de transações, cada bloco possui um identificador exclusivo chamado Hash,
+gerado a partir das informações presentes no bloco, incluindo o do anterior. 
+Esse encadeamento de blocos cria uma sequência contínua e cronológica, na qual os blocos são ligados ao anterior formando uma cadeia \cite{Blockchain}.
+
+\begin{figure}[!htb] \centering
+  \caption{Representação da Blockchain} \label{figura:imageBlock}
+  \begin{varwidth}{\linewidth}
+    \includegraphics[width=8cm]{figuras/imageBlock.png}
+    \fonte{\citefonte{Nakamoto}.}
+  \end{varwidth}
+\end{figure}
+
+O primeiro e mais conhecido ativo desse setor se chama Bitcoin, definido como um dinheiro eletrônico negociado diretamente entre pares, sem passar por uma instituição financeira \cite{Nakamoto}.
+Desde emtão, tem se publicado diversos artigos que buscam explorar essa nova area de mercado, segundo \textcite{Sousa}, as tecnologias baseadas em \textit{Blockchain} são mais mais rápidas, ágeis e seguras que seus pares centralizados. 
+Por isso, esse nicho vem ganhando bastante espaço na mídia, assim, atraindo interesse por parte de investidores individuais e fundos. 
+
+Cada \textit{Bitcoin} é subdividido em 100 milhões de unidades menores chamadas Satoshis, ou simplismente "Sats".
+Seu armazenamento é feito em uma carteira digital ciptografada de maneira assimétrica Offline chamadas \textit{Cold Wallets} ou Online em serviços de \textit{Hot Wallets} \cite{wallet}.
+A transferência ocorre por prova de trabalho, um validador chamado de minerador é responsável por resolver um problema matemático de dificuldade variável, além disso, serve como nó que confere a operação de outros mineradores e garante a integridade da rede.
+Quando o problema é resolvido adiciona-se um bloco de transação na Blockchain. Em troca, o minerador recebe uma recompensa em \textit{Bitcoins} \cite{pow}.
+A dificuldade da prova de trabalho é ajustada automaticamente pelo \textit{Hashrate}, indicador que mede a quantidade de poder computacional necessário à mineração. Quanto maior o \textit{Hashrate}, mais difícil é encontrar o próximo bloco, regulando o tempo entre a adição de novos blocos a rede, mantendo uma média de 10 minutos.
+
+\begin{figure}[!htb] \centering
+    \caption{Prova de trabalho} \label{figura:imageNonce}
+    \begin{varwidth}{\linewidth}
+      \includegraphics[width=8cm]{figuras/nonce.png}
+      \fonte{\citefonte{Nakamoto}.}
+    \end{varwidth}
+  \end{figure}
+
+A cada quatro anos, o número de \textit{Bitcoins} gerados por bloco é reduzido pela metade, evento conhecido como \textit{Halving}.
+O fator de redução confere a moeda uma escassez programada, limitada a 21 milhões de unidades, que a torna deflacionária.
+Ativos baseados em ciptografia e a inteligência artificial são parte fundamental da \textit{Web 3.0}, considerada como a terceira geração da internet \cite{web3}.
+Recentemente os contratos inteligentes, \textit{DeFi} (Finanças Descentralizadas), \textit{NFTs} (Tokens Não Fungíveis) e a inteligência artificial generativa ensaiam uma nova era de aplicações e serviços.
+
+\begin{figure}[!htb] \centering
+    \caption{Livros lançados por assunto} \label{figura:imagengram}
+    \begin{varwidth}{\linewidth}
+      \includegraphics[width=15cm]{figuras/ngram.png}
+      \fonte{\cite{books}}
+    \end{varwidth}
+  \end{figure}
+
+No contexto de negociação do \textit{Bitcoin} a mais conhecida das \textit{Exchanges} é a Binance, que opera em diversos países e possui um volume de transações diário de bilhões de dólares.
+Com uma liquidez alta o Spread, diferença entre o preço de compra e venda, é baixo, o que representa o valor bem acurado com o oferecido no mercado.
+Além disso, existem Sites de comparação de preços. os mais populares são o CoinGecko e CoinMarketCap, funcionando
+como portais que classificam as plataformas, moedas e até a situação atual do mercado através de índices.
+
+
+% em 29 de jun. 2024
+\begin{table}[!htb]
+  \caption{Exchanges com maior volume e confiabilidade} \label{tabela:lista_produtos}
+  \begin{tabularx}{\textwidth}{l|c|c|c} \hline
+    Exchange      & Volume 24h (BTC) & Score Coingecko & Score CoinMarketCap  \\ \hline
+    Binance (Global)      & 135.157      & 10/10        & 9,9/10 \\
+    Bybit         & 44.720      & 10/10        & 7.6/10  \\
+    HTX (Huobi)       & 34.250     & 9/10        & 6.9/10  \\ \hline
+  \end{tabularx}
+  \fonte{Elaborado pelo autor, 2024.}
+\end{table}
+
+%\section{\textit{Aprendizado de máquina}} \label{sec:apc}
+
+\section{\textit{Autoregressive Integrated Moving Average}} \label{sec:arima}
+
+O ARIMA (\textit{Autoregressive Integrated Moving Average}) tem suas raízes na econometria e na estatística.
+Sua história remonta ao trabalho pioneiro de \textcite{Box}, no qual os autores introduziram uma abordagem sistemática para identificar, estimar e diagnosticar modelos de séries temporais, conhecida como metodologia Box-Jenkins \cite{Arima}.
+Combinam três componentes principais: auto-regressão (AR), diferenciação (I) e médias móveis (MA). A componente AR descreve a relação entre uma observação atual e observações passadas, enquanto a componente MA modela a dependência entre uma observação e erros de previsão passados. 
+
+\section{Redes neurais} \label{sec:redes neurais}
+
+A teoria de Redes Neurais Artificiais (ANNs) teve início com os estudos realizados por \textcite{Rosenblatt}.
+Este autor desenvolveu o \textit{Perceptron}, um algoritmo fundamentado nas teorias formuladas por \textcite{McCulloch, hebb} que modelavam as conexões dos neurônios no cérebro de animais \cite{Good}.
+Apesar de suas vantagens, à época o \textit{Perceptron} era capaz apenas de resolver problemas linearmente separáveis, como destacado por \textcite{Minsky}. Este fato os impedia de ser utilizados em muitos problemas reais,
+o que causou uma crise no estudo da área como um todo. Fato que mais tarde foi contornado por \textcite{Rumelhart}, que juntos desenvolveram o algoritmo de \textit{Backpropagation} para treinar a arquitetura denominanda de \textit{Multilayer Perceptron} (MLP).
+
+\begin{figure}[!htb] \centering
+  \caption{Camadas de uma MLP} \label{figura:multilayer}
+  \begin{varwidth}{\linewidth}
+    \includegraphics[width=12cm]{figuras/mlp.png}
+    \fonte{\cite{multilayer}}
+  \end{varwidth}
+\end{figure}
+
+Após esse início, os algoritmos baseados em redes neurais evoluíram de forma a se tornar cada vez mais precisos e especializados em tarefas distintas.
+Pode-se dar destaque neste contexto aos modelos
+que podem ser combinados para gerar complexas arquiteturas no que hoje é conhecido como \textit{Deep Neural Networks} (DNNs) ou \textit{Deep Learning} \cite{Good}. Como se verifica nas revisões bibliográficas mais recentes, tais arqioteturas vêm demonstrando grande capacidade de auxiliar na resolução de problemas de classificação, previsão e análise de sentimentos \cite{Hanc}.
+
+\subsection{\textit{Recurrent Neural Networks}} \label{sec:rnn}
+
+Das arquiteturas apresentadas é possível notar que representam grafos cujas arestas não formam ciclos na mesma fase.
+Quando tal condição é subvertida e se estabelecem ciclos, obtem-se redes neurais recorrentes (RNNs)\cite{graves}.
+Embora essa diferença possa parecer trivial, as implicações devem ser consideradas na implementação.
+Enquanto uma MLP percorre apenas entre vetores de entrada e saída, \textcite{graves} destaca que uma RNN, a princípio, consegue mapear todo o histórico de entradas para cada saída. Atuando como uma memória que persiste de resultados passados para execuções futuras. 
+Pode-se então inferir a utilidade desses modelos em dados sequenciais $x^{(1)}$, ..., $x^{(\tau)}$ \cite{Good}.
+
+\begin{figure}[!htb] \centering
+  \caption{Camadas cíclicas de uma RNN} \label{figura:rnn}
+  \begin{varwidth}{\linewidth}
+    \includegraphics[width=12cm]{figuras/rnn.png}
+    \fonte{\cite{graves}}
+  \end{varwidth}
+\end{figure}
+
+Armazenar dependências ao longo das iterações é certamente o principal desafio matemático na implementação de redes recorrentes.
+Segundo \cite{graves}, o problema consiste em que gradientes propagados por muitas execuções tendem a desaparecer (na maioria dos casos) ou explodir (raramente, mas com grande impacto na otimização).
+Mesmo assumindo que os parâmetros da rede sejam estáveis, a dificuldade surge à medida que em que o modelo converge e os 
+\textit{Steps\footnote{ O salto no aprendizado (ou \textit{step}) da rede se tornar exponencialmente menor pode ser explicado observando as mínimas ou máximas locais e globais em uma função n-dimensional. Fato demonstrado no livro de \textcite{stewart}.}} se tornam menores \cite{Good}.
+Uma maneira de lidar com a dispersão dos gradientes é projetar um modelo que opere em múltiplas escalas temporais \cite{Bengio} e realizar o 
+\textit{Clipping\footnote{\textit{Clipping} é uma técnica que consiste em limitar a magnitude dos gradientes a um intervalo válido, impedindo que ultrpassem valores predefinidos.}} dos gradientes para evitar as explosões \cite{Exp}.
+
+\subsection{\textit{Long-Short Term Memory}} \label{sec:lstm}
+Os modelos baseados em células de memória \textit{Long-Short Term Memory} (LSTM) foram desenvolvidos por \textcite{Hoch}, fazem parte de uma seleta classe dos modelos sequênciais de RNNs controladas (\textit{gated RNNs}).
+A ideia é produzir um \textit{loop} entre uma mesma unidade, o que leva a caminhos onde o gradiente pode perdurar por muitas iterações.
+Novas abordagens introduziram o peso nesse \textit{loop} condicionado ao contexto em vez de fixo, sendo então controlado por outra unidade oculta \cite{Gers}. 
+Assim, a escala pode ser alterada dinamicamente, mesmo que uma LSTM tenha parâmetros fixos, a escala pode mudar com base na sequência 
+de entrada, pois as constantes de tempo são determinadas pelo próprio modelo.
+
+\begin{figure}[!htb] \centering
+  \caption{Diagrama de blocos de uma LSTM} \label{figura:lstm}
+  \begin{varwidth}{\linewidth}
+    \includegraphics[width=10cm]{figuras/lstm.png}
+    \fonte{\cite{graves}}
+  \end{varwidth}
+\end{figure}
+
+\subsection{\textit{Bidirectional Long Short-Term Memory}} \label{sec:bilstm}
+
+A ideia de adicionar camadas em direções opostas nas redes recorrentes foi proposta por \textcite{Schuster} e denominadas redes bidirecionais.
+Essa técnica posteriormente foi adaptada nos estudos de \textcite{bilstm}, que propuseram uma LSTM Bidirecional, ou \textit{Bidirectional Long Short-Term Memory} (biLSTM).
+Sua estrutura é formada por duas LSTMs: 
+uma recebendo as entradas à frente enquanto outra recebe na direção oposta.
+O intuito é que a saída de cada unidade influencie indiretamente em sua contraparte, de forma que os gradientes não dispersem conforme o tempo.
+
+
+\subsection{\textit{Gated Recurrent Unit}} \label{sec:gru}
+A \textit{Gated Recurrent Unit} (GRU) é um tipo de RNN introduzida por \textcite{Cho}.
+Sua estrutura é semelhante às LSTMs, mas, têm uma arquitetura minimalista e, portanto, são computacionalmente mais eficientes. 
+Utilizam dois tipos principais de portas (\textit{gates}) para controlar o fluxo de informações dentro da unidade: a porta de reset (\textit{Reset gate}) e a porta de atualização (\textit{update gate}).
+
+\begin{figure}[!htb] \centering
+  \caption{Estrutura de uma GRU} \label{figura:gru}
+  \begin{varwidth}{\linewidth}
+    \includegraphics[width=10cm]{figuras/gru.png}
+    \fonte{\cite{gru-image}}
+  \end{varwidth}
+\end{figure}
+
+\section{\textit{Séries temporais}} \label{sec:temp}
+Séries temporais são conjuntos de dados intrinsecamente relacionados ao tempo, sua natureza ordenada e agrupada em intervalos regulares
+torna a sequência cronológica fundamental \cite{Esling}. Alguns desses conjuntos possuem ciclos repetitivos em períodos distintos, chamadas sazonalidades. 
+Possuem inúmeras aplicações, representando vendas, preços de ações e variações nos mais diversos contextos.
+
+O número de amostras e a correlação de eventos são fatores primordiais que definem a complexidade da análise.
+\textcite{Nison} destaca que já no século XVIII, os japoneses desenvolveram uma forma de
+visualização de séries temporais popularmente conhecida como \textit{Candlestick}.
+Desde então, o comportamento que denota sua variação, representada em ativos como no mercado financeiro, intriga economistas, estastísticos e professores de finanças \cite{Fama}
+
+%\subsection{Previsão de preços} \label{sec:previsao}
+
+%Prever preços não é algo necessariamente novo ou exclusivo de mercados digitais. Porém, utilizar os recursos computacionais atuais aliados a técnicas especificas para séries temporais podem proporcionar uma maior assertividade.
+
+\section{Estado da arte} \label{sec:estado}
+
+Em artigos recentes \textcite{Fer} obtiveram sucesso em prever preços do Bitcoin para o dia seguinte com modelos LSTM. Autores como \textcite{Tri} combinam métodos bayesianos, processamento de sinais e redes neurais a fim de prever o preço em múltiplos intervalos de tempo.
+
+\textcite{Zhang} compilam resultados de modelos para previsão de preço, detecção de bolha e construção de portfólio que podem aumentar a lucratividade no âmbito das criptomoedas.
+A variedade de algoritmos empregados e a diversidade em resultados obtidos demonstram a complexidade do problema, assim, reforça a necessidade de se explorar diferentes abordagens.
+
+\begin{table}[!htb]
+  \scriptsize
+  \caption{Comparação entre estudos na área} \label{tabela:lista_estudos}
+  \begin{tabularx}{\textwidth}{l|X|X|X|X|X} \hline
+    Pesquisadores & Ativo & Entradas & Saídas & Modelos & Métricas \\ \hline
+    \cite{lstmvsgru} & Bitcoin & Preço & Preço médio & LSTM, GRU & SMAPE \\ \hline
+    \cite{Fer} & Bitcoin & Preço & Preço & LSTM & RMSE \\ \hline
+    \cite{Siami} & Ações & Preço & Preço& ARIMA, LSTM, BiLSTM & RMSE \\ \hline
+    \cite{Tri} & Bitcoin & Preço ou indicadores& Preço & DANN, LSTM, BiLSTM, CNN-BiLSTM & RMSE, MAE, MAPE \\ \hline
+    Autor & Bitcoin & Preço, trocas e volume & Preço & ARIMA, LSTM, BiLSTM e GRU & MSE, MAPE, MASE, $R^2$ \\ \hline
+  \end{tabularx}
+  \fonte{Elaborado pelo autor, 2024.}
+\end{table}

@@ -1,0 +1,587 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Ariyo}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=770ba1cd67de1bd198d99353cc5dc610}{%
+           family={Ariyo},
+           familyi={A\bibinitperiod},
+           given={Adebiyi\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6b1e41bd204b0d0075297927ec0e295}{%
+           family={Adewumi},
+           familyi={A\bibinitperiod},
+           given={Adewumi\bibnamedelima O.},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e013404f3f10aecd4b28713cb9fa23d}{%
+           family={Ayo},
+           familyi={A\bibinitperiod},
+           given={Charles\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \strng{fullhash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \strng{bibnamehash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \strng{authorbibnamehash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \strng{authornamehash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \strng{authorfullhash}{23a1bb9c975d21cc0dbfd2bb9e4d5087}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 UKSim-AMSS 16th International Conference on Computer Modelling and Simulation}
+      \field{title}{Stock Price Prediction Using the ARIMA Model}
+      \field{year}{2014}
+      \field{pages}{106\bibrangedash 112}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/UKSim.2014.67
+      \endverb
+      \keyw{Predictive models;Indexes;Time series analysis;Forecasting;Data models;Computational modeling;Mathematical model;ARIMA model;Stock Price prediction;Stock market;Short-term prediction}
+    \endentry
+    \entry{Bachelier}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cf3b72acd9c2b0193404b5f6490d3e77}{%
+           family={Bachelier},
+           familyi={B\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \strng{fullhash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \strng{bibnamehash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \strng{authorbibnamehash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \strng{authornamehash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \strng{authorfullhash}{cf3b72acd9c2b0193404b5f6490d3e77}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales Scientifiques de L'Ecole Normale Supérieure}
+      \field{title}{Théorie de la Spéculation}
+      \field{volume}{17}
+      \field{year}{1900}
+      \field{pages}{21\bibrangedash 88}
+      \range{pages}{68}
+    \endentry
+    \entry{Box}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d30289ba50f0f7219fb405bc35b8b71c}{%
+           family={Box},
+           familyi={B\bibinitperiod},
+           given={George\bibnamedelimb E.\bibnamedelimi P},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1ab08e2497ca082aaa93471686d64e1}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Gwilym\bibnamedelimb M.\bibnamedelimi (Gwilym\bibnamedelima Merion)},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim (\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Holden-Day}%
+      }
+      \strng{namehash}{9cfe5335628f84c5314eae251cd99c5a}
+      \strng{fullhash}{9cfe5335628f84c5314eae251cd99c5a}
+      \strng{bibnamehash}{9cfe5335628f84c5314eae251cd99c5a}
+      \strng{authorbibnamehash}{9cfe5335628f84c5314eae251cd99c5a}
+      \strng{authornamehash}{9cfe5335628f84c5314eae251cd99c5a}
+      \strng{authorfullhash}{9cfe5335628f84c5314eae251cd99c5a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time series analysis; forecasting and control}
+      \field{year}{1970}
+    \endentry
+    \entry{Fama}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{1}
+      \field{title}{Random Walks in Stock Market Prices}
+      \field{volume}{51}
+      \field{year}{1995}
+      \field{pages}{75\bibrangedash 80}
+      \range{pages}{6}
+    \endentry
+    \entry{Fama1965}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Business}
+      \field{title}{The Behavior of Stock-Market Prices}
+      \field{volume}{38}
+      \field{year}{1965}
+      \field{pages}{34}
+      \range{pages}{1}
+    \endentry
+    \entry{Fer}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=1d9bfa448b9e0d74647cbddcc8530b0e}{%
+           family={Ferdiansyah},
+           familyi={F\bibinitperiod},
+           given={Ferdiansyah},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58714489968926314fb0870e6c262a33}{%
+           family={Othman},
+           familyi={O\bibinitperiod},
+           given={Siti},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d1f3ec2b615d3ebee1430c84f8bae51}{%
+           family={Raja\bibnamedelimb Mohd\bibnamedelima Radzi},
+           familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Raja\bibnamedelima Zahilah},
+           giveni={R\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a6259af4c908c43b397a5a091b8837b}{%
+           family={Stiawan},
+           familyi={S\bibinitperiod},
+           given={Deris},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=325cb8f89c64969a7c3ddf4932eb3a22}{%
+           family={Sazaki},
+           familyi={S\bibinitperiod},
+           given={Yoppy},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c033878d4942bd1647c59a7901a9e47e}{%
+           family={Ependi},
+           familyi={E\bibinitperiod},
+           given={Usman},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9debb06edb0220868b50a6783233b69}
+      \strng{fullhash}{49a6f7cbde39539eb434d8d341276a15}
+      \strng{bibnamehash}{f9debb06edb0220868b50a6783233b69}
+      \strng{authorbibnamehash}{f9debb06edb0220868b50a6783233b69}
+      \strng{authornamehash}{f9debb06edb0220868b50a6783233b69}
+      \strng{authorfullhash}{49a6f7cbde39539eb434d8d341276a15}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2019 International Conference on Electrical Engineering and Computer Science (ICECOS)}
+      \field{month}{10}
+      \field{subtitle}{A Case Study Yahoo Finance Stock Market}
+      \field{title}{A LSTM-Method for Bitcoin Price Prediction}
+      \field{year}{2019}
+      \field{pages}{206\bibrangedash 210}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICECOS47637.2019.8984499
+      \endverb
+    \endentry
+    \entry{pesquisa}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5794ffc7b11ec5231154a79059addfb0}{%
+           family={Gerhardt},
+           familyi={G\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbde1065e15ff82759eda8e8260acc11}{%
+           family={Silveira},
+           familyi={S\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {UFRGS}%
+      }
+      \strng{namehash}{c01a54cf89538a78030a37b3368eab35}
+      \strng{fullhash}{c01a54cf89538a78030a37b3368eab35}
+      \strng{bibnamehash}{c01a54cf89538a78030a37b3368eab35}
+      \strng{authorbibnamehash}{c01a54cf89538a78030a37b3368eab35}
+      \strng{authornamehash}{c01a54cf89538a78030a37b3368eab35}
+      \strng{authorfullhash}{c01a54cf89538a78030a37b3368eab35}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{9788538600718}
+      \field{month}{01}
+      \field{title}{Métodos de pesquisa}
+      \field{year}{2009}
+      \field{pages}{120}
+      \range{pages}{1}
+    \endentry
+    \entry{Good}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
+    \endentry
+    \entry{Moi}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=c0b5ebdbe58796e26fbe4f4ccb34807c}{%
+           family={Molling},
+           familyi={M\bibinitperiod},
+           given={Graziela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b72871495a66531dec705d3cee6da5e}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Amarolinda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58c1893196a4cbf38d70e63e6f85ea2f}{%
+           family={Hoppen},
+           familyi={H\bibinitperiod},
+           given={Norberto},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14986cc8b9168c6fbdc3fa75f6a1f6ae}{%
+           family={Rosa},
+           familyi={R\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a0e1aa2685bc388d76015f4f8fa05b3}
+      \strng{fullhash}{1c3811813ff8fe769d584da17af1f679}
+      \strng{bibnamehash}{7a0e1aa2685bc388d76015f4f8fa05b3}
+      \strng{authorbibnamehash}{7a0e1aa2685bc388d76015f4f8fa05b3}
+      \strng{authornamehash}{7a0e1aa2685bc388d76015f4f8fa05b3}
+      \strng{authorfullhash}{1c3811813ff8fe769d584da17af1f679}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Information Systems and Technology Management}
+      \field{month}{12}
+      \field{title}{Cryptocurrency: A Mine of Controversies}
+      \field{volume}{17}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.4301/s1807-1775202017010
+      \endverb
+    \endentry
+    \entry{Nakamoto}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{bibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorbibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{A Peer-to-Peer Electronic Cash System}
+      \field{title}{Bitcoin}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bitcoin.org/bitcoin.pdf
+      \endverb
+      \verb{url}
+      \verb https://bitcoin.org/bitcoin.pdf
+      \endverb
+    \endentry
+    \entry{Rosenblatt}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e8511ef13d0cdda3a709b93fa650e71}{%
+           family={Rosenblatt},
+           familyi={R\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Cornell Aeronautical Laboratory}%
+      }
+      \list{location}{1}{%
+        {Ithaca, New York}%
+      }
+      \strng{namehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{fullhash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{bibnamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authorbibnamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authornamehash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \strng{authorfullhash}{9e8511ef13d0cdda3a709b93fa650e71}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{85-460-1}
+      \field{title}{The perceptron, a perceiving and recognizing automaton}
+      \field{type}{techreport}
+      \field{year}{1957}
+    \endentry
+    \entry{Rumelhart}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=55cd5380bb5b15032a6d5a2015f56e3f}{%
+           family={Rumelhart},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cbc29ad7fd57ffdb9ed4728418fd988}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \strng{fullhash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \strng{bibnamehash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \strng{authorbibnamehash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \strng{authornamehash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \strng{authorfullhash}{fd75cea68d6982b503a0cd84f7cc7b51}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6088}
+      \field{title}{Learning representations by back-propagating errors}
+      \field{volume}{323}
+      \field{year}{1986}
+      \field{pages}{533\bibrangedash 536}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/323533a0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/323533a0
+      \endverb
+    \endentry
+    \entry{Sousa}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=393fb5ac7ad54c17726ce18e35d4806b}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d3e6f8c6d3e2976fa78aa77f647ac06}{%
+           family={Calçada},
+           familyi={C\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e128ab389895c7f5a6f6a6d7b92d00b6}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf9b8746c85ac2a7d2a21bae64f5a638}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{fullhash}{75e72011ef84e59a23d67740a899ae77}
+      \strng{bibnamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authorbibnamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authornamehash}{dd7a9b5925807be21df682d3d65fd672}
+      \strng{authorfullhash}{75e72011ef84e59a23d67740a899ae77}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EuroMed Journal of Business}
+      \field{month}{05}
+      \field{title}{Cryptocurrency adoption: a systematic literature review and bibliometric analysis}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{374\bibrangedash 390}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1108/EMJB-01-2022-0003
+      \endverb
+    \endentry
+    \entry{Zhang}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=75ad0a746172630291d85d2b07ec702d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Junhuan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9f666e13b616b8fe2afbd3ebddf4d22}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Kewei},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d2e5b2345c6876c4beaec049cf279ff}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Jiaqi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bccb6fe83b4d0805de842e4dacce885}
+      \strng{fullhash}{4bccb6fe83b4d0805de842e4dacce885}
+      \strng{bibnamehash}{4bccb6fe83b4d0805de842e4dacce885}
+      \strng{authorbibnamehash}{4bccb6fe83b4d0805de842e4dacce885}
+      \strng{authornamehash}{4bccb6fe83b4d0805de842e4dacce885}
+      \strng{authorfullhash}{4bccb6fe83b4d0805de842e4dacce885}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2589-0042}
+      \field{journaltitle}{iScience}
+      \field{number}{1}
+      \field{title}{A survey of deep learning applications in cryptocurrency}
+      \field{volume}{27}
+      \field{year}{2024}
+      \field{pages}{108509}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.isci.2023.108509
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

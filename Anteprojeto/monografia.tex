@@ -1,0 +1,102 @@
+\documentclass[oneside,monografia]{iftex2020}
+
+\input{config}
+
+\addbibresource{referencias.bib}
+% Na prática pode ser usado apenas \addbibresource{referencias.bib}
+% O comando \addbibresource{referencias.bib} foi usado para mostrar as referências do capítulo de exemplo
+
+% --------------------------------------------------
+% Configurações do Documento
+% --------------------------------------------------
+\titulo{Análise comparativa entre algoritmos de predição de preço para o Bitcoin}
+\autor{Mickael Osvaldo de Oliveira}
+\local{Bambuí - MG}
+\data{25}{Outubro}{2024}
+
+% Instituição
+\instituicao{IFMG}{Instituto Federal Minas Gerais}{Instituto Federal de Educação Ciência e Tecnologia de Minas Gerais}
+\unidade{\textit{Campus} Bambuí}
+\curso{Bacharel}{Bacharelado}{Engenharia de Computação}
+
+% Orientação
+\orientador{Prof. Dr. Ciniro Aparecido Leite Nametala}
+
+% Membros da banca examinadora (além do orientador e coorientador)
+\membrobanca{Prof. Dr. Geraldo Henrique Alves Pereira}{IFMG – Campus Bambuí}
+\membrobanca{Prof. Dr. Marcos Roberto Ribeiro}{IFMG – Campus Bambuí}
+
+% -------------------------------------------------------
+% Elementos Pré-textuais
+% -------------------------------------------------------
+
+\input{capitulos/pretextual}
+
+% Ficha catalográfica (obrigatória)
+\ficha{ficha_catalografica}
+
+% --------------------------------------------------
+% Folha de aprovação (obrigatória)
+% --------------------------------------------------
+% Assinaturas e QRCode recortados do documento SEI
+%\assinaturas{assinaturas}
+
+% -------------------------------------------------------
+% Elementos opcionais
+% -------------------------------------------------------
+
+% Lista de figuras (opcional)
+\listafiguras
+% Lista de quadros (opcional)
+% \listaquadros
+% Lista de tabelas (opcional)
+\listatabelas
+% Lista de algoritmos (opcional)
+% \listaalgoritmos
+% Lista de códigos (opcional)
+% \listacodigos
+
+\begin{document}
+
+% -------------------------------------------------------
+% Gera elementos pré-textuais
+% -------------------------------------------------------
+\maketitle
+
+% -------------------------------------------------------
+% Capítulo: Introdução
+% -------------------------------------------------------
+\chapter{Introdução} \label{cap:introducao}
+
+\input{capitulos/cap_introducao}
+
+\chapter{Fundamentação teórica} \label{cap:fundamentacao_teorica}
+
+\input{capitulos/cap_fundamentacao_teorica}
+
+\chapter{Metodologia} \label{cap:metodologia}
+
+\input{capitulos/cap_metodologia}
+
+\chapter{Resultados e discussão} \label{cap:resultados}
+
+\input{capitulos/cap_resultados}
+
+\chapter{Conclusão} \label{cap:conclusao}
+
+\input{capitulos/cap_conclusao}
+
+% -------------------------------------------------------
+% Elementos pós-textuais
+% -------------------------------------------------------
+\postextual
+
+% -------------------------------------------------------
+% Referências bibliográficas
+% -------------------------------------------------------
+
+\printbibliography[notkeyword=exemplo]
+% Na prática pode ser usado apenas \printbibliography
+% O comando \printbibliography[notkeyword=exemplo] foi usado para não mostrar as referências do capítulo de exemplo
+
+\end{document}
