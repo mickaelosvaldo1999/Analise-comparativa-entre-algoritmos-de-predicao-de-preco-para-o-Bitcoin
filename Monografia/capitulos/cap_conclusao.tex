@@ -1,4 +1,19 @@
-Apesar do estudo ainda estar em progresso e a análise comparativa não estar completa, 
-a metodologia empregada até o momento se revela sólida e bem estruturada. A abordagem adotada para a implementação e avaliação dos algoritmos tem mostrado adequada para os objetivos propostos. A continuidade dos experimentos restantes são cruciais para validar os resultados e fornecer uma análise mais aprofundada.
+Neste estudo foram exploradas diferentes abordagens de modelagem para a previsão do preço do Bitcoin em intervalos de 15 minutos, comparando métodos estatísticos e redes neurais recorrentes. 
+O \textit{Dataset} continha dados de preço, volume e trocas de janeiro a setembro de 2020, um período de alta volatilidade. Desse modo, ncluiu uma análise de desempenho de modelos como ARIMA, GRU, LSTM e BiLSTM, aplicados às séries temporais propostas.
+As arquiteturas supervisionadas e estatisticas foram separadas levando em consideração as limitações de cada uma, como a necessidade de janelamento e a quantidade de \textit{Features}.
 
-Todos os dados já foram coletados e pré-processados, os próximos passos incluem a definição da arquitetura da rede e parâmetros do ARIMA.
+O modelo ARIMA, conhecido por sua robustez em séries lineares, obteve os melhores resultados no contexto, superando ligeiramente os modelos de rede neural ao apresentar previsões precisas e consistentes.
+Porém, o fato das neurais não performarem tão bem quanto seu competidor estatístico não significa que elas não possam ser utilizadas, mas sim que precisam de mais ajustes e engenharia de \textit{Features} para melhorar a previsão.
+
+Como continuidade para este trabalho, sugere-se a investigação de abordagens híbridas que combinem a capacidade preditiva do ARIMA com a sensibilidade temporal das redes neurais. Além disso, é possível expandir os testes para outros períodos e ativos financeiros. 
+
+Outras recomendações incluem:
+
+\begin{itemize}
+    \item Realizar ajustes nas configurações das redes neurais, como o número de camadas, unidades ocultas, função de ativação e hiperparâmetros
+    \item Identificar arquiteturas ainda mais adaptadas à volatilidade;
+    \item Aplicar a metodologia a outras criptomoedas, intervalos de tempo e ativos financeiros para validar a generalização dos resultados;
+    \item Comparar o desempenho com técnicas mais recentes, considerando diferentes condições de mercado e intervalos temporais.
+\end{itemize}
+
+Portanto, este estudo cumpre os objetivos propostos e contribui para a compreensão do comportamento do mercado de criptomoedas e a aplicação de técnicas de previsão de séries temporais.

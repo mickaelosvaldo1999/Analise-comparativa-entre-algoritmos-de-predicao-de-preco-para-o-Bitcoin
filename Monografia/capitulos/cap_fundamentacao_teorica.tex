@@ -78,6 +78,9 @@ O ARIMA (\textit{Autoregressive Integrated Moving Average}) tem suas raízes na 
 Sua história remonta ao trabalho pioneiro de \textcite{Box}, no qual os autores introduziram uma abordagem sistemática para identificar, estimar e diagnosticar modelos de séries temporais, conhecida como metodologia Box-Jenkins \cite{Arima}.
 Combinam três componentes principais: auto-regressão (AR), diferenciação (I) e médias móveis (MA). A componente AR descreve a relação entre uma observação atual e observações passadas, enquanto a componente MA modela a dependência entre uma observação e erros de previsão passados. 
 
+Então, atribui-se a cada uma das componentes do modelos as siglas \textit{p}, \textit{d} e \textit{q} representado o ajuste na série. O parâmetro \textit{p} é a ordem do modelo AR, \textit{d} é o grau de diferenciação (I) e \textit{q} é a ordem do modelo MA.
+Para ajustar o modelo aos dados, o comum é usar uma análise das funções de autocorrelação total e parcial (ACF e PACF) ou a grade de busca (grid search) com validação cruzada para otimizar esses valores, minimizando a métrica de erro (como o RMSE).
+Existem outras variantes dos métodos ARMA, como o SARIMA (ARIMA sazonal) e o SARIMAX (ARIMA sazonal com variáveis exógenas).
 \section{Redes neurais} \label{sec:redes neurais}
 
 A teoria de Redes Neurais Artificiais (ANNs) teve início com os estudos realizados por \textcite{Rosenblatt}.
@@ -100,7 +103,7 @@ que podem ser combinados para gerar complexas arquiteturas no que hoje é conhec
 \subsection{\textit{Recurrent Neural Networks}} \label{sec:rnn}
 
 Das arquiteturas apresentadas é possível notar que representam grafos cujas arestas não formam ciclos na mesma fase.
-Quando tal condição é subvertida e se estabelecem ciclos, obtem-se redes neurais recorrentes (RNNs)\cite{graves}.
+Quando tal condição é subvertida e se estabelecem ciclos, como visto na figura \ref{figura:rnn}, obtem-se redes neurais recorrentes (RNNs)\cite{graves}.
 Embora essa diferença possa parecer trivial, as implicações devem ser consideradas na implementação.
 Enquanto uma MLP percorre apenas entre vetores de entrada e saída, \textcite{graves} destaca que uma RNN, a princípio, consegue mapear todo o histórico de entradas para cada saída. Atuando como uma memória que persiste de resultados passados para execuções futuras. 
 Pode-se então inferir a utilidade desses modelos em dados sequenciais $x^{(1)}$, ..., $x^{(\tau)}$ \cite{Good}.
@@ -115,8 +118,9 @@ Pode-se então inferir a utilidade desses modelos em dados sequenciais $x^{(1)}$
 
 Armazenar dependências ao longo das iterações é certamente o principal desafio matemático na implementação de redes recorrentes.
 Segundo \cite{graves}, o problema consiste em que gradientes propagados por muitas execuções tendem a desaparecer (na maioria dos casos) ou explodir (raramente, mas com grande impacto na otimização).
-Mesmo assumindo que os parâmetros da rede sejam estáveis, a dificuldade surge à medida que em que o modelo converge e os 
-\textit{Steps\footnote{ O salto no aprendizado (ou \textit{step}) da rede se tornar exponencialmente menor pode ser explicado observando as mínimas ou máximas locais e globais em uma função n-dimensional. Fato demonstrado no livro de \textcite{stewart}.}} se tornam menores \cite{Good}.
+Mesmo assumindo que os parâmetros da rede sejam estáveis, a dificuldade surge à medida que em que o modelo converge ao passar das épocas e os 
+\textit{Steps\footnote{ O salto no aprendizado (ou \textit{step}) da rede se tornar exponencialmente menor pode ser explicado observando as mínimas ou máximas locais e globais em uma função n-dimensional. Fato demonstrado no livro de \textcite{stewart}.}} 
+se tornam cada vez menores menores \cite{Good}.
 Uma maneira de lidar com a dispersão dos gradientes é projetar um modelo que opere em múltiplas escalas temporais \cite{Bengio} e realizar o 
 \textit{Clipping\footnote{\textit{Clipping} é uma técnica que consiste em limitar a magnitude dos gradientes a um intervalo válido, impedindo que ultrpassem valores predefinidos.}} dos gradientes para evitar as explosões \cite{Exp}.
 
