@@ -11,10 +11,10 @@
 	[X] Enviar proposta corrigida
 
 #### Implementação A
-	[] Preparar o ambiente
-	[] Desenvolver o dataset
-	[] Implementar alguns aogoritmos de redes neurais
-	[] Implementar função de perda
+	[X] Preparar o ambiente
+	[X] Desenvolver o dataset
+	[X] Implementar alguns aogoritmos de redes neurais
+	[X] Implementar função de perda
 
 #### Anteprojeto
 
