@@ -1,13 +1,13 @@
 # Fdb version 3
-["biber monografia"] 1731494534 "monografia.bcf" "monografia.bbl" "monografia" 1731494541
-  "monografia.bcf" 1731494541 118853 4f4932b704ceb2a7cf3a800561e0f9cd "pdflatex"
+["biber monografia"] 1731494534 "monografia.bcf" "monografia.bbl" "monografia" 1731495338
+  "monografia.bcf" 1731495338 118853 4f4932b704ceb2a7cf3a800561e0f9cd "pdflatex"
   "referencias.bib" 1729476586 19372 597f50a7cc283693b658f215a0da3f7b ""
   (generated)
   "monografia.bbl"
   "monografia.blg"
-["pdflatex"] 1731494538 "/home/mickael/Desktop/TCC/Monografia/monografia.tex" "monografia.pdf" "monografia" 1731494541
+["pdflatex"] 1731495335 "/home/mickael/Desktop/TCC/Monografia/monografia.tex" "monografia.pdf" "monografia" 1731495338
   "/etc/texmf/web2c/texmf.cnf" 1710538488 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mickael/Desktop/TCC/Monografia/monografia.tex" 1729820233 3237 b540adc21783d138b8405fabefedb878 ""
+  "/home/mickael/Desktop/TCC/Monografia/monografia.tex" 1731495334 3238 78220719e19b96b4334c845752869bd4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -304,14 +304,14 @@
   "figuras/train_test.png" 1724023763 67072 b91ed9f09e018513f1d47eff995ac1ad ""
   "figuras/window.png" 1724022257 23497 253d3f586539cd020f350518c3ddb632 ""
   "iftex2020.cls" 1694608461 29269 d1eee12ed6c780614084ba179900ca21 ""
-  "monografia.aux" 1731494541 47923 a62ba333f282f9de2c0b22113d3a24e1 "pdflatex"
+  "monografia.aux" 1731495338 47923 a62ba333f282f9de2c0b22113d3a24e1 "pdflatex"
   "monografia.bbl" 1731494535 91281 8b88ba94057861f959b84d26558e4ea8 "biber monografia"
-  "monografia.lof" 1731494541 1790 d971d91ee17ae7a02963e620c3742d53 "pdflatex"
-  "monografia.lot" 1731494541 1124 a74ad5953a4e7f34beb54930fd5ab9a6 "pdflatex"
-  "monografia.mw" 1731494541 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "monografia.run.xml" 1731494541 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
-  "monografia.tex" 1729820233 3237 b540adc21783d138b8405fabefedb878 ""
-  "monografia.toc" 1731494541 4989 e735bc0e5403f38aa91434a6f994cdac "pdflatex"
+  "monografia.lof" 1731495338 1790 d971d91ee17ae7a02963e620c3742d53 "pdflatex"
+  "monografia.lot" 1731495338 1124 a74ad5953a4e7f34beb54930fd5ab9a6 "pdflatex"
+  "monografia.mw" 1731495338 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "monografia.run.xml" 1731495338 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
+  "monografia.tex" 1731495334 3238 78220719e19b96b4334c845752869bd4 ""
+  "monografia.toc" 1731495338 4989 e735bc0e5403f38aa91434a6f994cdac "pdflatex"
   (generated)
   "monografia.aux"
   "monografia.bcf"
