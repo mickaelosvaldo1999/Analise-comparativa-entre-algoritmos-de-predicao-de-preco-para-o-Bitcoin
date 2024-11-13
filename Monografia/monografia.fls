@@ -2079,6 +2079,12 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 OUTPUT monografia.mw
 INPUT monografia.mw

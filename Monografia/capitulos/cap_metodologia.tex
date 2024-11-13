@@ -32,11 +32,11 @@ A essa etapa dá-se o nome de pré-processamento.
     \begin{tabularx}{\textwidth}{X|X|X|X}
     \hline
     Data (GMT-3) & Volume & Trocas & Preço \\ \hline
-    2020-01-01 00:00:00   & 1959651.83      & 2811            & 7228.5         \\ \hline
-    2020-01-01 00:15:00   & 1225409.70      & 1897            & 7237.15        \\ \hline
-    2020-01-01 00:30:00   & 1469869.68      & 2163            & 7221.27        \\ \hline
-    2020-01-01 00:45:00   & 1012436.07      & 1466            & 7225.01        \\ \hline
-    2020-01-01 01:00:00   & 1102372.81      & 1985            & 7219.09        \\ \hline
+    2020-01-01 00:00:00   & 1959651,83      & 2811            & 7228,5         \\ \hline
+    2020-01-01 00:15:00   & 1225409,70      & 1897            & 7237,15        \\ \hline
+    2020-01-01 00:30:00   & 1469869,68      & 2163            & 7221,27        \\ \hline
+    2020-01-01 00:45:00   & 1012436,07      & 1466            & 7225,01        \\ \hline
+    2020-01-01 01:00:00   & 1102372,81      & 1985            & 7219,09        \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
 \end{table}
@@ -105,17 +105,17 @@ Na implementação de redes neurais foram utilizados os \textit{Frameworks} Kera
 O ARIMA foi feito e otimizado com base no Pmdarima, biblioteca que implementa o modelo de forma eficiente.
 
 \section{Arquitetura} \label{sec:arquitetura}
-Cada modelo foi implementado de acordo com as especificações de suas respectivas arquiteturas, a seguir, são apresentadas as principais características de cada um.
+Para \textcite{Good} a arquitetura de uma rede define sua estrutura geral, incluindo o número de unidades e a forma como estão conectadas entre si
+Cada modelo foi implementado de acordo com as especificações definidas para avaliação, respeitando as particularidades de cada um em relação à estrutura e aos parâmetros ajustados.
+A seguir, são apresentadas as principais características os diferenciam e justificam seu desempenho nas análises.
 
 \begin{table}[h!] \label{tabela:lstm_struct}
     \caption{Estrutura do modelo baseado em LSTM}
     \begin{tabularx}{\textwidth}{X|X|X|c|X} \hline
     Camada & Tipo & Neurônios & Função de Ativação & Parâmetros \\ \hline
-    1 & LSTM                    & 16 & Tangente Hiperbólica                           & 1.280                  \\ \hline
-    2 & LSTM                    & 32 & Tangente Hiperbólica                            & 6.272                  \\ \hline
-    3 & LSTM                    & 32 & Tangente Hiperbólica                            & 8.320                  \\ \hline
-    4 & Densa                   & 16 & Tangente Hiperbólica                            & 528                    \\ \hline
-    5 & Densa                   & 1  & Tangente Hiperbólica                           & 17                     \\ \hline
+    1 & LSTM                    & 32 & Tangente Hiperbólica                           & 4.000                  \\ \hline
+    2 & Densa                   & 32 & Tangente Hiperbólica                            & 1.056                    \\ \hline
+    3 & Densa                   & 1  & Linear                           & 33                     \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
 \end{table}
@@ -124,10 +124,9 @@ Cada modelo foi implementado de acordo com as especificações de suas respectiv
     \caption{Estrutura do modelo baseado em GRU}
     \begin{tabularx}{\textwidth}{X|X|X|c|X} \hline
     Camada & Tipo & Neurônios & Função de Ativação & Parâmetros \\ \hline
-    1                   & GRU                     & 75                     & -                           & 18.000                 \\ \hline
-    2                   & GRU                     & 30                     & -                           & 9.630                  \\ \hline
-    3                   & GRU                     & 30                     & -                           & 5.580                  \\ \hline
-    4                   & Densa                   & 1                      & -                           & 31                     \\ \hline
+    1      & GRU  & 32  & Tangente Hiperbólica     & 3.552                 \\ \hline
+    2      & Densa & 32 & Tangente Hiperbólica     & 1.056                    \\ \hline
+    3      & Densa & 1  & Linear                   & 33                     \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
 \end{table}
@@ -136,10 +135,9 @@ Cada modelo foi implementado de acordo com as especificações de suas respectiv
     \caption{Estrutura do modelo baseado em camadas Bidirecionais}
     \begin{tabularx}{\textwidth}{X|X|X|c|X} \hline
     Camada & Tipo & Neurônios & Função de Ativação & Parâmetros \\ \hline
-    1                   & Bidirectional            & 256                    & -                           & 135.168                \\ \hline
-    2                   & Bidirectional            & 128                    & -                           & 164.352                \\ \hline
-    3                   & Densa                   & 32                     & Tangente Hiperbólica                           & 4.128                  \\ \hline
-    4                   & Densa                   & 1                      & -                           & 33                     \\ \hline
+    1                   & Bidirectional            & 32                   & Tangente Hiperbólica                         & 9.216                \\ \hline
+    2                   & Densa                   &  32               & Tangente Hiperbólica                           & 2.000                 \\ \hline
+    3                   & Densa                   &  1                   & Linear                       & 33                     \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
 \end{table}
@@ -157,8 +155,9 @@ Os parâmetros da rede foram definidos de forma geral e aplicados uniformemente 
     \begin{tabularx}{\textwidth}{X|X} \hline
     Parâmetros & Valores \\ \hline
     Batch         & 32               \\ \hline
-    Épocas         & 1000              \\ \hline
-    Otimizador               & Nadam ($\eta=0{,}0001$; $\beta_1=0{,}85$; $\beta_2=0{,}989$; $\epsilon=10^{-6}$)             \\ \hline
+    Épocas         & 500              \\ \hline
+    Otimizador               & Nadam ($\eta=1*10^{-4}$; $\beta_1=0{,}85$; $\beta_2=0{,}989$; $\epsilon=10^{-6}$)             \\ \hline
+    Fator de decaimento          & 0,5 em 20 épocas de platô            \\ \hline
     Função de perda          & MSE              \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
@@ -171,7 +170,7 @@ No aprendizado de máquina (supervisionado) é possivel validar diretamente na f
 Na comparação final será feita uma combinação de métricas estatísticas 
 que permitem analisar tanto a precisão quanto a robustez das previsões.
 As métricas escolhidas para essa avaliação são: 
-Mean Squared Error (MSE), Mean Absolute Percentage Error (MAPE), Mean Absolute Scaled Error (MASE) e o Coeficiente de Determinação (R²). Cada uma dessas métricas fornece uma perspectiva única sobre a qualidade das previsões e será descrita a seguir.
+\textit{Mean Squared Error} (MSE), \textit{Root Mean Squared Error} (RMSE), \textit{Mean Absolute Percentage Error (MAPE)} e o Coeficiente de Determinação (R²). Cada uma dessas métricas fornece uma perspectiva única sobre a qualidade das previsões e será descrita a seguir.
 
 \begin{equation}
     \text{MSE} = \frac{1}{n} \sum_{t=1}^{n} (\hat{y}_t - y_t)^2
@@ -180,20 +179,18 @@ Mean Squared Error (MSE), Mean Absolute Percentage Error (MAPE), Mean Absolute S
 Calcula a média dos quadrados da diferença entre os valores previstos ŷ e os valores reais y. Penaliza erros maiores mais severamente, já que a diferenças é elevada ao quadrado
 
 \begin{equation}
+    \text{RMSE} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} (y_t - \hat{y}_t)^2}
+\end{equation}
+
+A principal função dessa métrica é medir a diferença entre os valores observados 
+y e os valores preditos $\hat{y}$, elevando o erro ao quadrado antes de calcular a média e aplicando a raiz quadrada ao final para que o erro tenha a mesma unidade dos dados originais. Isso significa que o RMSE dá maior peso a erros maiores devido ao efeito do quadrado,
+
+\begin{equation}
     \text{MAPE} = \frac{1}{n} \sum_{t=1}^{n} \left|\frac{y_t - \hat{y}_t}{y_t}\right|
 \end{equation}
 
 Média dos erros percentuais absolutos na série, padronizando a análise para que seja possível comparar diferentes escalas ou unidades.
 Quando a diferença entre y e ŷ é dividida por y, obtêm-se o percentual, que é então normalizado pela média. Como o somatório de valores decimais pode ser confuso, alguns autores sugerem multiplicar cada resultado por 100 para facilitar a interpretação.
-
-
-\begin{equation}
-    \text{MASE} = \frac{\frac{1}{n} \sum_{t=1}^{n} |y_t - \hat{y}_t|}{\frac{1}{n-1}\sum_{t=2}^{n} |y_t - y_{t-1}|}
-\end{equation}
-
-A principal função dessa métrica é comparar os erros do modelo original com a predição \textit{Naive} (ingênua), que simplesmente prevê o valor anterior.
-Caso o erro seja maior ou igual a 1, o modelo é considererado tão ruim quanto duplicar valores.
-A fórmula basicamente compara a média absoluta de erro (MAE) dos modelos, então, é uma média comum com módulo.
 
 \begin{equation}
     R^2 = 1 - \frac{\sum_{t=1}^{n} (y_t - \hat{y}_t)^2}{\sum_{t=1}^{n}(y_t - \bar{y})^2}

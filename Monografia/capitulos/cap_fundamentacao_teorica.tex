@@ -75,7 +75,7 @@ como portais que classificam as plataformas, moedas e até a situação atual do
 \section{\textit{Autoregressive Integrated Moving Average}} \label{sec:arima}
 
 O ARIMA (\textit{Autoregressive Integrated Moving Average}) tem suas raízes na econometria e na estatística.
-Sua história remonta ao trabalho pioneiro de \textcite{Box}, no qual os autores introduziram uma abordagem sistemática para identificar, estimar e diagnosticar modelos de séries temporais, conhecida como metodologia Box-Jenkins \cite{Arima}.
+Sua história remonta ao trabalho de \textcite{Box}, no qual os autores introduziram uma abordagem sistemática para identificar, estimar e diagnosticar modelos de séries temporais, conhecida como metodologia Box-Jenkins \cite{Arima}.
 Combinam três componentes principais: auto-regressão (AR), diferenciação (I) e médias móveis (MA). A componente AR descreve a relação entre uma observação atual e observações passadas, enquanto a componente MA modela a dependência entre uma observação e erros de previsão passados. 
 
 Então, atribui-se a cada uma das componentes do modelos as siglas \textit{p}, \textit{d} e \textit{q} representado o ajuste na série. O parâmetro \textit{p} é a ordem do modelo AR, \textit{d} é o grau de diferenciação (I) e \textit{q} é a ordem do modelo MA.
@@ -191,7 +191,7 @@ A variedade de algoritmos empregados e a diversidade em resultados obtidos demon
     \cite{Fer} & Bitcoin & Preço & Preço & LSTM & RMSE \\ \hline
     \cite{Siami} & Ações & Preço & Preço& ARIMA, LSTM, BiLSTM & RMSE \\ \hline
     \cite{Tri} & Bitcoin & Preço ou indicadores& Preço & DANN, LSTM, BiLSTM, CNN-BiLSTM & RMSE, MAE, MAPE \\ \hline
-    Autor & Bitcoin & Preço, trocas e volume & Preço & ARIMA, LSTM, BiLSTM e GRU & MSE, MAPE, MASE, $R^2$ \\ \hline
+    Autor & Bitcoin & Preço, trocas e volume & Preço & ARIMA, LSTM, BiLSTM e GRU & MSE, MAPE, RMSE, $R^2$ \\ \hline
   \end{tabularx}
   \fonte{Elaborado pelo autor, 2024.}
 \end{table}
