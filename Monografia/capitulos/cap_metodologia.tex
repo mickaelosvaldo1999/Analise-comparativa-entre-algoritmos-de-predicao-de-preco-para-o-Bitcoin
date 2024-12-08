@@ -158,25 +158,29 @@ Os parâmetros da rede foram definidos de forma geral e aplicados uniformemente 
     Épocas         & 500              \\ \hline
     Otimizador               & Nadam ($\eta=1*10^{-4}$; $\beta_1=0{,}85$; $\beta_2=0{,}989$; $\epsilon=10^{-6}$)             \\ \hline
     Fator de decaimento          & 0,5 em 20 épocas de platô            \\ \hline
-    Função de perda          & MSE              \\ \hline
+    Função de perda          & Huber              \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
 \end{table}
 
 \section{Avaliação} \label{sec:avaliacao}
 Para avaliar a acurácia dos modelos de previsão, é preciso separar em duas categorias: aprendizado de máquina e estatística.
-No aprendizado de máquina (supervisionado) é possivel validar diretamente na função de perda, que no caso é a MSE, enquanto nos estatísticos o cálculo é inerente à fórmula.
+No aprendizado de máquina (supervisionado) é possivel validar diretamente na função de perda, que no caso é a Huber, enquanto nos estatísticos o cálculo é inerente à fórmula.
 
 Na comparação final será feita uma combinação de métricas estatísticas 
 que permitem analisar tanto a precisão quanto a robustez das previsões.
 As métricas escolhidas para essa avaliação são: 
-\textit{Mean Squared Error} (MSE), \textit{Root Mean Squared Error} (RMSE), \textit{Mean Absolute Percentage Error (MAPE)} e o Coeficiente de Determinação (R²). Cada uma dessas métricas fornece uma perspectiva única sobre a qualidade das previsões e será descrita a seguir.
+\textit{Root Mean Squared Error} (RMSE), \textit{Mean Absolute Percentage Error (MAPE)} e o Coeficiente de Determinação (R²). Cada uma dessas métricas fornece uma perspectiva única sobre a qualidade das previsões e será descrita a seguir.
 
 \begin{equation}
-    \text{MSE} = \frac{1}{n} \sum_{t=1}^{n} (\hat{y}_t - y_t)^2
+Huber = 
+\begin{cases} 
+\frac{1}{2} a^2, & \text{se } |a| \leq \delta \\
+\delta (|a| - \frac{1}{2} \delta), & \text{se } |a| > \delta 
+\end{cases}
 \end{equation}
 
-Calcula a média dos quadrados da diferença entre os valores previstos ŷ e os valores reais y. Penaliza erros maiores mais severamente, já que a diferenças é elevada ao quadrado
+Na equação acima, \textit{a} representa a diferença entre o valor real y e o valor predito  $\hat{y}$, e o delta ($  \delta $) é um parâmetro que controla o ponto de transição entre os dois regimes de penalização (quadrática e linear). Para erros pequenos, a perda é quadrática, enquanto para erros grandes, a perda se torna linear, o que torna a função robusta a \textit{outliers}.
 
 \begin{equation}
     \text{RMSE} = \sqrt{\frac{1}{n} \sum_{t=1}^{n} (y_t - \hat{y}_t)^2}

@@ -99,11 +99,12 @@ Os resultados das previsões do ARIMA são apresentadas na figura \ref{figura:ls
 
   A tabela \ref{tab:erros} apresenta os erros obtidos para cada modelo implementado neste estudo. O modelo ARIMA foi o que apresentou os melhores resultados, fato que pode estar ligado a natureza univariada e janelamento expansivo.
   No contexto dos modelos supervisionados, o GRU foi o que apresentou o melhor desempenho, seguido pelo LSTM e BiLSTM, respectivamente.
-  A disparidade entre os modelos ressalta a complexidade do problema e a necessidade de mais estudos para aprimorar as previsões.
-  Enquanto modelos estatísticos seguem uma abordagem mais simplista, os modelos de aprendizado profundo são mais complexos e podem ser explorados com outras \textit{Features} além de trocas e volume.
+  Enquanto modelos estatísticos seguem uma abordagem mais simplista, o aprendizado profundo pode ser explorado com outras \textit{Features} além de trocas e volume.
+ No estudo em questão, foram exploradas diversas arquiteturas e hiperparâmetros nos modelos supervisionados, por isso, as taxas de erro foram mais baixas encontradas.
 
-  No estudo em questão, foram exploradas diversas arquiteturas e hiperparâmetros nos modelos supervisionados, por isso, as taxas de erro foram mais baixas encontradas. 
-  Mas, ainda há espaço para mais estudos, como a utilização de redes neurais convolucionais e redes neurais recorrentes com mecanismos de atenção, além de outras técnicas de processamento de linguagem natural e processamento de séries temporais.
+A disparidade entre os modelos ressalta a necessidade de mais estudos para aprimorar as previsões.
+Grandes volumes de dados exigem mais esforços para otimizar a aplicabilidade de arquiteturas profundas, fato que contribui para o desempenho inferior.
+  Mas, ainda há espaço para alternativas, como a utilização de redes neurais convolucionais ou recorrentes com mecanismos de atenção, além de técnicas de processamento de sinais e processamento de séries temporais.
   
 \begin{table}[!htb]
   \caption{Erros em cada modelo} \label{tab:erros}
