@@ -782,38 +782,6 @@
       \verb https://doi.org/10.1145/2379776.2379788
       \endverb
     \endentry
-    \entry{Fama}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b646153d0a42d68ad3bffe2512b0225f}{%
-           family={Fama},
-           familyi={F\bibinitperiod},
-           given={Eugene},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
-      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
-      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
-      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
-      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
-      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Financial Analysts Journal}
-      \field{number}{1}
-      \field{title}{Random Walks in Stock Market Prices}
-      \field{volume}{51}
-      \field{year}{1995}
-      \field{pages}{75\bibrangedash 80}
-      \range{pages}{6}
-    \endentry
     \entry{Fang}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9e59321071360b5eae3b0c6c6c975786}{%
@@ -1306,6 +1274,43 @@
       \field{year}{2019}
       \verb{doi}
       \verb 10.1016/j.bushor.2019.01.002
+      \endverb
+    \endentry
+    \entry{Jaiswal}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d34fd4a49fc9631a550c586801a02a70}{%
+           family={Jaiswal},
+           familyi={J\bibinitperiod},
+           given={Rashi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce0a2583927a25a67a75223e266ae206}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Brijendra},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7dc816b46a9af515e6fea227cf0d277d}
+      \strng{fullhash}{7dc816b46a9af515e6fea227cf0d277d}
+      \strng{bibnamehash}{7dc816b46a9af515e6fea227cf0d277d}
+      \strng{authorbibnamehash}{7dc816b46a9af515e6fea227cf0d277d}
+      \strng{authornamehash}{7dc816b46a9af515e6fea227cf0d277d}
+      \strng{authorfullhash}{7dc816b46a9af515e6fea227cf0d277d}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-981-99-3480-5}
+      \field{month}{11}
+      \field{title}{A Comparative Study of Loss Functions for Deep Neural Networks in Time Series Analysis}
+      \field{year}{2023}
+      \field{pages}{147\bibrangedash 163}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-981-99-3481-2_12
       \endverb
     \endentry
     \entry{Sliding}{article}{}

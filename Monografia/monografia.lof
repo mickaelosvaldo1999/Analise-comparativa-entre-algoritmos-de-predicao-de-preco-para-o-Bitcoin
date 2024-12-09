@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Diagrama de blocos de uma LSTM\relax }}{22}{figure.caption.25}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Estrutura de uma GRU\relax }}{23}{figure.caption.26}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Fluxo de implementação da solução\relax }}{25}{figure.caption.28}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Técnicas de janelamento\relax }}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Técnicas de janelamento\relax }}{28}{figure.caption.30}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Divisão de dados\relax }}{28}{figure.caption.31}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Gráfico de convergência\relax }}{33}{figure.caption.37}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Gráfico de preços reais e previstos - LSTM\relax }}{34}{figure.caption.38}%

@@ -7,62 +7,57 @@ A análise técnica busca predizer os preços futuros baseadas em análises pass
 Por outro lado, a análise fundamentalista se baseia em estimar o valor intrínseco dos ativos, ou seja, encontrar o preço justo por fundamentos do projeto, preços passados, situação atual e oportunidades futuras \cite{Ahmed}.
 
 O \textit{Bitcoin} foi introduzido por \textcite{Nakamoto}, entidade desconhecida sob o pseudônimo de Satoshi Nakamoto. 
-Considerada a primeira moeda digital implmementada que transaciona de maneira totalmente descentralizada, assim, sem a necessidade de uma autoridade central como um banco ou governo. 
-Para isso, utiliza uma tecnologia denominada \textit{Blockchain}, que funciona como um livro caixa em uma estrutura de dados distribuída e imutável \cite{Ledger}. Podem ser trocados por outras moedas ou ativos, como o Real, em plataformas de negociação de ativos digitais chamadas \textit{Exchanges}.
-Existem diversas no mercado, cada uma com suas características e taxas, por isso, é preciso ter cuidado com a escolha da plataforma, pois existem algumas dessas que manipulam dados de transações \cite{FakeExchanges}.
+Considerada a primeira moeda digital implemementada que transaciona de maneira totalmente descentralizada, assim, sem a necessidade de uma autoridade central como um banco ou governo. 
+Para isso, utiliza uma tecnologia denominada \textit{Blockchain}, que funciona como um livro caixa em uma estrutura de dados distribuída e imutável \cite{Ledger}. Podem ser trocados por outras moedas ou ativos, como o Real, em plataformas de negociação de ativos digitais chamadas \textit{Exchanges} \cite{FakeExchanges}.
 
 A troca desses ativos gera um histórico de transações como em qualquer mercado financeiro,
-porém, comsideravelmente mais volátil devido a falta de lastro das moedas FIAT tradicionais. 
+porém, consideravelmente mais volátil devido a falta de lastro das moedas fiduciárias (FIAT) tradicionais. 
 Tendo em vista o caminhar aleatório do mercado, a análise preditiva não deve ser considerada uma tarefa trivial, mas, pode ser facilitada com o uso de técnicas de aprendizado de máquina.
 Nos dias atuais, segundo \textcite{Fang}, os analistas de mercado têm feito uso não somente destes métodos como também de outros modelos computacionais convecionais ou híbridos, que têm por objetivo prever os preços, obtendo sucesso especialmente no contexto das criptomoedas \cite{Atsalakis}.
 
 \section{Justificativa}
-As redes neurais se tornaram uma peça fundamental na sociedade moderna,
+As redes neurais artificiais (RNAs) se tornaram uma peça fundamental na sociedade moderna,
 por isso, novas técnicas surgem a cada dia para resolver múltiplos problemas, 
-muitas vezes não solucionáveis por humanos.
+muitas vezes não solucionáveis por humanos \cite{Good}.
 Por outro lado, o mercado de ativos baseados em criptografia cresce exponencialmente, 
-sendo muito utilizado como reserva de valor, meio de pagamento e uma forma de diversificação de investimentos.
+sendo muito utilizado como reserva de valor, meio de pagamento e uma forma de diversificação de investimentos \cite{Sousa}.
 
 Então, justifica-se esse trabalho pois essas duas tecnologias convergem
-em um mundo cada vez mais digital, a união das mesmas pode até mesmo ser intrínseca a muitas criptomoedas.
-A previsão de preços em mercados não é nova, mas, em ativos voláteis como o Bitcoin sempre existem oportunidades de operações lucrativas. 
-Com base nesses termos, esse projeto visa trazer à tona dois temas muito relevantes atualmente, principalmente em áreas que estão sob a ótica da engenharia de computação.
+para um mundo cada vez mais digital, a união das mesmas pode até mesmo ser intrínseca a muitas criptomoedas.
+A previsão de preços em mercados financeiros não é recente, entretanto, ativos com alta volatilidade, como o Bitcoin, ainda apresentam potencial para operações lucrativas \cite{Tri}.
+Assim, este estudo busca explorar dois temas relevantes atualmente, especialmente sob a perspectiva da engenharia de computação, contribuindo para o avanço do conhecimento em áreas exploradas.
 
 
 \section{Proposta}
 
 Este estudo tem como proposta analisar e avaliar algoritmos voltados para previsão de preços, espera-se verificar sua lucratividade em operações usando um dos mais famosos criptoativos, o Bitcoin.
-Os modelos serão avaliados de acordo com suas previsões em um cenário real de variação de preço, estruturados por meio de uma série temporal histórica. A pesquisa utilizará essa mesma base de dados e manterá os métodos de pré-processamento fixos, variando no contexto da aplicação apenas o algoritmo de previsão.
+Os modelos serão avaliados de acordo com suas previsões em um cenário real de variação de preço, estruturados por meio de uma série temporal histórica. A pesquisa utilizou essa mesma base de dados e manteve os métodos de pré-processamento fixos, variando no contexto da aplicação apenas o algoritmo de previsão.
 Isto será feito de forma a manter as condições de experimentação para todos os algoritmos, garantindo assim que a diferença esteja apenas no funcionamento de cada um.
-Os dados serão obtidos através dos registros de negociações reais na \textit{Exchange}
+Os dados foram obtidos através dos registros de negociações reais na \textit{Exchange}
  Binance, que contém informações como o preço, volume e o número de transações realizadas entre janeiro a setembro de 2020.
-As arquiteturas a serem exploradas incluem a ARIMA, LSTM, BiLSTM e GRU.
+As arquiteturas exploradas incluem a ARIMA, LSTM, BiLSTM e GRU.
 
 \subsection{Objetivo geral}
 
-Analisar por meio comparativo o desempenho de algoritmos de predição de preço no contexto do Bitcoin.
+Comparar o desempenho de algoritmos de predição de preço no contexto do Bitcoin.
 
 \subsection{Objetivos específicos}
 
 Para atingir o objetivo principal, se fazem necessários os seguintes objetivos específicos:
 \begin{itemize}
     \item Desenvolvimento da estrutura computacional necessária para selecionar, implementar e realizar previsões por meio de ferramentas tecnológicas adequadas (como linguagens de programação, métodos de extração e armazenamento de dados, geradores gráficos e demais ferramentas que se fizerem necessárias);
-    \item Avaliação de algoritmos de redes neurais e compará-los, frente aos \textit{Benchmarks} de interesse, a fim de determinar qual tem melhor desempenho;
+    \item Avaliação de RNAs e compará-los, frente aos \textit{Benchmarks} de interesse, a fim de determinar qual tem melhor desempenho;
     \item Exploração de possíveis variações em métodos conhecidos, visando adaptá-los a um novo cenário;
-    \item Análise se esses métodos de predição são rentáveis em uma base de dados real.
+    \item Avaliar a rentabilidade desses métodos através de métricas em uma base de dados real.
 \end{itemize}
 
 \section{Estrutura do documento}
 
-Este trabalho está estruturado em seis capítulos que incluindo também as referências. 
-
-    Após a introdução, são apresentados os fundamentos teóricos necessários para a compreensão das principais técnicas empregadas na metodologia. 
+Este trabalho está estruturado em seis capítulos, Após a introdução, são apresentados os fundamentos teóricos necessários para a compreensão das principais técnicas empregadas na metodologia. 
 Desse modo, o capítulo \ref{cap:fundamentacao_teorica} aborda conceitos de criptomoedas e séries temporais, fornecendo uma introdução à análise de dados, explorando artigos relacionados 
 à estrutura do mercado e a predição de preços. 
-Além disso, é apresentado o estado da arte em relação a redes neurais e suas aplicações no contexto do mercado financeiro.
+Além disso, é apresentado o estado da arte em relação as RNAs e suas aplicações no contexto do mercado financeiro.
 
 O Capítulo \ref{cap:metodologia} apresenta a metodologia, organizada de acordo com a sequência de implementação da solução.
-
-    No capítulo \ref{cap:resultados}, são descritos os resultados e discussões dos experimentos realizados.
-
-    O capítulo \ref{cap:conclusao} oferece uma conclusão que abrange as principais contribuições, limitações da pesquisa e propostas para trabalhos futuros.
+No capítulo \ref{cap:resultados}, são descritos os resultados e discussões dos experimentos realizados.
+O capítulo \ref{cap:conclusao} oferece uma conclusão que abrange as principais contribuições, limitações da pesquisa e propostas para trabalhos futuros.

@@ -1,4 +1,3 @@
-
 Utilizando como base \textcite{pesquisa}, pode-se dizer que a pesquisa adota
 uma abordagem quantitativa e experimental, ou seja, visa analisar e contrastar o desempenho
 de diferentes algoritmos em condições controladas. A natureza aplicada do estudo busca não
@@ -6,7 +5,7 @@ apenas compreender as nuances de cada algoritmo, mas também oferecer \textit{in
 e implementação dos mais eficazes. A metodologia descritiva permite uma análise detalhada
 dos resultados obtidos, destacando as diferenças significativas entre os modelos avaliados.
 
-\subsection{Solução proposta} \label{sec:solucao}
+\section{Solução proposta} \label{sec:solucao}
 
 \begin{figure}[!htb] \centering
     \caption{Fluxo de implementação da solução} \label{figura:proposta}
@@ -17,10 +16,10 @@ dos resultados obtidos, destacando as diferenças significativas entre os modelo
   \end{figure}
 
 \section{Coleta de dados} \label{sec:coleta}
-A coleta de dados ou obtenção de \textit{Datasets} envolve inicialmente selecionar locais como APIs, bancos de dados online ou arquivos históricos que forneçam os dados em um formato estruturado, como JSON, CSV ou TOML.
+A coleta de dados ou obtenção de \textit{Datasets} envolve inicialmente selecionar locais como APIs, bancos de dados \textit{Online} ou arquivos históricos que forneçam os dados em um formato estruturado, como JSON, CSV ou TOML.
 Mas, é possível estabelecer um processo de coleta automatizada através de \textit{Crawlers} ou \textit{Web Scrapping} para extrair as informações brutas.
-Independente da escolha sempre é preciso realizar um projeto de dados, que envolve a definição de quais informações são relevantes e sua correlação, para isso, existem métodos como a análise exploratória de dados (EDA) e a visualização de dados como no \textit{Pair Plot}.
-A tabela \ref{tab:amostras} apresenta um exemplo de amostras que foram coletadas.
+Independente da escolha sempre é preciso realizar um projeto de dados, que envolve a definição de quais informações são relevantes e sua correlação, para isso, existem métodos como a análise exploratória de dados (EDA).
+A tabela \ref{tab:amostras} apresenta um exemplo de amostras que foram coletadas, contendo informações de volume, que indicam a intensidade de negociações, trocas, que representam a proporção de compras ou vendas, e preço, que é o valor de fechamento do ativo para aquele \textit{Candle} de quinze minutos.
 
 \section{Pré processamento} \label{sec:preprocessamento}
 No processo de análise de dados, é comum que os dados brutos apresentem inconsistências, como valores ausentes, duplicados ou mal formatados. 
@@ -31,7 +30,7 @@ A essa etapa dá-se o nome de pré-processamento.
     \caption{Amostras da base de dados coletada} \label{tab:amostras}
     \begin{tabularx}{\textwidth}{X|X|X|X}
     \hline
-    Data (GMT-3) & Volume & Trocas & Preço \\ \hline
+    Data (GMT-3) & Volume (USDT) & Trocas (Total) & Preço (USDT) \\ \hline
     2020-01-01 00:00:00   & 1959651,83      & 2811            & 7228,5         \\ \hline
     2020-01-01 00:15:00   & 1225409,70      & 1897            & 7237,15        \\ \hline
     2020-01-01 00:30:00   & 1469869,68      & 2163            & 7221,27        \\ \hline
@@ -44,7 +43,15 @@ A essa etapa dá-se o nome de pré-processamento.
 \subsection{Validação de completude} \label{sec:completude}
 Para verificar a completude dos dados, foi utilizada uma função nativa do \textit{Pandas}, garantindo que todas as entradas estejam presentes na base.
 Embora o conector a realize na captura, é necessário uma verificação adicional a cada análise para assegurar a qualidade das amostras. 
-Caso exista valores ausentes, é possível utilizar métodos como a interpolação para estimar os valores faltantes e preenchê-los.
+Caso exista valores ausentes, é possível utilizar métodos como a interpolação linear para estimar os valores faltantes e preenchê-los.
+
+\begin{equation} 
+    {P_1(x) = y_0 + \frac{(y_1 - y_0)}{x_1 - x_0} (x - x_0)}
+    \label{eq:interpolacao} 
+\end{equation}
+
+A interpolação linear (equação \ref{eq:interpolacao}) é baseada na reta que liga dois pontos, ma qual \(y_0\) e \(y_1\) são os valores conhecidos para os pontos
+\(x_0\) e \(x_1\) entre a variável \(x\), que se deseja calcular o correspondente \(P\).
 
 \subsection{Normalização} \label{sec:normalizar}
 Em um \textit{Dataset} multivariado é comum que os valores estejam em escalas distintas, no caso do \textit{Bitcoin}, o preço e o volume variam em ordens de grandeza superiores ao número absoluto de transações.
@@ -60,7 +67,7 @@ Ao final obtemos o equivalente dimensionado da respectiva linha, ajustado em esc
 
 \subsection{Limitações e diferenças entre algoritmos} \label{sec:limitacao}
 O processamento de dados em diferentes algoritmos, seja no aprendizado de máquina ou modelagem estatística, requer um dimensionamento de dados contendente com as necessidades e limitações de cada método.
-Ao utilizar redes neurais, é comum que o modelo consiga lidar bem com múltiplas variáveis e forneça um arcabouço robusto de soluções adquiridas durante o treinamento.
+Ao utilizar RNAs, é comum que o modelo consiga lidar bem com múltiplas variáveis e forneça um arcabouço robusto de soluções adquiridas durante o treinamento.
 
 Por outro lado, modelos como a regressão linear são tradicionalmente univariados, significando que modelam uma única variável de interesse.
 Outra característica é que não são treinados no sentido tradicional, em vez disso, ajustam seus parâmetros diretamente aos valores históricos, requerendo dados estacionários.
@@ -71,7 +78,7 @@ Ou seja, as entradas devem ser ligeiramente adaptadas às necessidades do modelo
 Ao se trabalhar com séries temporais é comum a separação dos dados em segmentos menores
  a fim de capturar a dinâmica ao longo do tempo.
 Uma dessas técnicas envolve a criação de janelas deslizantes, na qual um intervalo fixo de observações é utilizado para prever os próximos valores.
-No contexto de redes neurais, essa abordagem é bastante útil, pois permite que o modelo capture padrões locais e evolutivos, aproveitando o poder da memória da rede para entender sequências.
+No contexto de RNNs, essa abordagem é bastante útil, pois permite que o modelo capture padrões locais e evolutivos, aproveitando o poder da memória da RNA para entender sequências.
 
 Entretanto, quando se trata de modelos estatísticos, o processo de segmentação é geralmente feito de maneira incremental.
 Em vez de usar uma janela deslizante de tamanho fixo, o modelo pode se beneficiar de uma janela expansiva, onde todos os dados disponíveis até um determinado ponto são utilizados para fazer a previsão seguinte.
@@ -101,11 +108,11 @@ Após o limite de épocas o conjunto de teste, que contém dados que o modelo ai
 
 \section{Implementação} \label{sec:implementacao}
 Todos os modelos foram desenvolvidos utilizando a linguagem de programação \textit{Python} versão 3.10 \cite{ramalho}, juntamente com as bibliotecas \textit{Pandas} e \textit{Numpy} \cite{Data}. 
-Na implementação de redes neurais foram utilizados os \textit{Frameworks} Keras 3.10 e TensorFlow 2.10 \cite{maosaobra}, essas ferramentas podem ser adaptadas para processamento paralelo em GPU, mas, para isso a placa de video deve ter suporte a CUDA, tecnologia de codigo aberto da NVIDIA.
+Na implementação de RNNs foram utilizados os \textit{Frameworks} Keras 3.10 e TensorFlow 2.10 \cite{maosaobra}, essas ferramentas podem ser adaptadas para processamento paralelo em GPU, mas, para isso a placa de video deve ter suporte a CUDA, tecnologia de codigo aberto da NVIDIA.
 O ARIMA foi feito e otimizado com base no Pmdarima, biblioteca que implementa o modelo de forma eficiente.
 
 \section{Arquitetura} \label{sec:arquitetura}
-Para \textcite{Good} a arquitetura de uma rede define sua estrutura geral, incluindo o número de unidades e a forma como estão conectadas entre si
+Para \textcite{Good} a arquitetura de uma RNA define sua estrutura geral, incluindo o número de unidades e a forma como estão conectadas entre si
 Cada modelo foi implementado de acordo com as especificações definidas para avaliação, respeitando as particularidades de cada um em relação à estrutura e aos parâmetros ajustados.
 A seguir, são apresentadas as principais características os diferenciam e justificam seu desempenho nas análises.
 
@@ -148,7 +155,7 @@ A seguir, são apresentadas as principais características os diferenciam e just
 
 
 \section{Configuração} \label{sec:configuracao} 
-Os parâmetros da rede foram definidos de forma geral e aplicados uniformemente a todos os modelos avaliados. A configuração padrão adotada é descrita detalhadamente na Tabela \ref{tabela:parametros}.
+Os parâmetros da RNA foram definidos de forma geral e aplicados uniformemente a todos os modelos avaliados. A configuração padrão adotada é descrita detalhadamente na Tabela \ref{tabela:parametros}.
 
 \begin{table}[h!]
     \caption{Configuração dos parâmetros das redes neurais} \label{tabela:parametros}
@@ -166,6 +173,7 @@ Os parâmetros da rede foram definidos de forma geral e aplicados uniformemente 
 \section{Avaliação} \label{sec:avaliacao}
 Para avaliar a acurácia dos modelos de previsão, é preciso separar em duas categorias: aprendizado de máquina e estatística.
 No aprendizado de máquina (supervisionado) é possivel validar diretamente na função de perda, que no caso é a Huber, enquanto nos estatísticos o cálculo é inerente à fórmula.
+A escolha da \textit{loss function} se deve à sua capacidade de lidar com \textit{outliers} e ruídos observados principalmente em intervalos menores (quinze minutos), \textcite{Jaiswal} sugerem que isso a torna mais robusta em relação as outras métricas em séries temporais.
 
 Na comparação final será feita uma combinação de métricas estatísticas 
 que permitem analisar tanto a precisão quanto a robustez das previsões.
@@ -208,4 +216,4 @@ Para a realização deste trabalho,
 foram utilizados um processador Intel Core i5-12500H e
 uma placa de vídeo NVIDIA GeForce RTX 3050 de 4GB com suporte a CUDA 12
 Um total de 16GB de memória RAM foram utilizados para armazenas os tensores, parâmetros e janelamento em memória dos dados. 
-O sistema operacional foi o Linux Pop! OS 20.04 e o desenvolvimento foi feito no editor Visual Studio Code, utilizando Python 3.10. As bibliotecas empregadas incluíram Pandas e Numpy para manipulação e computação de dados, e Matplotlib e Seaborn para visualização. Para aprendizado de máquina e redes neurais, foram utilizados os frameworks Keras e TensorFlow, e o modelo ARIMA foi implementado com a biblioteca Pmdarima.
+O sistema operacional foi o Linux Pop! OS 20.04 e o desenvolvimento foi feito no editor Visual Studio Code, utilizando Python 3.10. As bibliotecas empregadas incluíram Pandas e Numpy para manipulação e computação de dados, e Matplotlib e Seaborn para visualização. Para aprendizado de máquina e RNNs, foram utilizados os frameworks Keras e TensorFlow, e o modelo ARIMA foi implementado com a biblioteca Pmdarima.

@@ -18,7 +18,7 @@
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentação teórica}}{17}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Bitcoin}{17}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\textit {Autoregressive Integrated Moving Average}}{19}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Redes neurais}{19}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Redes neurais artificiais}{19}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}\textit {Recurrent Neural Networks}}{20}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}\textit {Long-Short Term Memory}}{21}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}\textit {Bidirectional Long Short-Term Memory}}{21}{subsection.2.3.3}%
@@ -27,19 +27,19 @@
 \contentsline {section}{\numberline {2.5}Estado da arte}{23}{section.2.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{25}{chapter.3}%
-\contentsline {subsection}{\numberline {3.0.1}Solução proposta}{25}{subsection.3.0.1}%
-\contentsline {section}{\numberline {3.1}Coleta de dados}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Pré processamento}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Validação de completude}{26}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Normalização}{26}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Limitações e diferenças entre algoritmos}{26}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Janelamento}{27}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Divisão em conjuntos}{27}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Implementação}{28}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Arquitetura}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Configuração}{29}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Avaliação}{29}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Materiais e Tecnologias}{30}{section.3.7}%
+\contentsline {section}{\numberline {3.1}Solução proposta}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Coleta de dados}{25}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Pré processamento}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Validação de completude}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Normalização}{26}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Limitações e diferenças entre algoritmos}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Janelamento}{27}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Divisão em conjuntos}{27}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Implementação}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Arquitetura}{28}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Configuração}{29}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Avaliação}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Materiais e Tecnologias}{31}{section.3.8}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e discussão}}{32}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Validação de completude}{32}{section.4.1}%

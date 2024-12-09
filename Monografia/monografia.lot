@@ -2,7 +2,7 @@
 \contentsline {table}{\numberline {1}{\ignorespaces Exchanges com maior volume e confiabilidade\relax }}{19}{table.caption.22}%
 \contentsline {table}{\numberline {2}{\ignorespaces Comparação entre estudos na área\relax }}{24}{table.caption.27}%
 \contentsline {table}{\numberline {3}{\ignorespaces Amostras da base de dados coletada\relax }}{26}{table.caption.29}%
-\contentsline {table}{\numberline {4}{\ignorespaces Estrutura do modelo baseado em LSTM\relax }}{28}{table.caption.32}%
+\contentsline {table}{\numberline {4}{\ignorespaces Estrutura do modelo baseado em LSTM\relax }}{29}{table.caption.32}%
 \contentsline {table}{\numberline {5}{\ignorespaces Estrutura do modelo baseado em GRU\relax }}{29}{table.caption.33}%
 \contentsline {table}{\numberline {6}{\ignorespaces Estrutura do modelo baseado em camadas Bidirecionais\relax }}{29}{table.caption.34}%
 \contentsline {table}{\numberline {7}{\ignorespaces Configuração dos parâmetros das redes neurais\relax }}{29}{table.caption.35}%

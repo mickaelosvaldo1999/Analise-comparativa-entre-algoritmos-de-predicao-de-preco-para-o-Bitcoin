@@ -7,7 +7,7 @@ O \textit{Dataset} continha 59 valores duplicados que foram complementados por o
 Tal fenômeno ocorreu provavelmente devido a manutenções e atualizações da Binance, visto que ao buscar o horário separadamente, a API retornava erro.
 
 \section{Tratamento e pré processamento de dados}
-Para o aprendizado supervisionado os dados foram escalonados utilizado o MinMaxScaller, conforme a equação \ref{eq:scalled}. Os conjuntos de treinto, teste e validação foram divididos de acordo com a tabela \ref{tab:conjuntos} em 60\%, 20\% e 20\% respectivamente. 
+Para o aprendizado supervisionado os dados foram escalonados utilizado o MinMaxScaller, conforme a equação \ref{eq:scalled} no capítulo anterior. Os conjuntos de treinto, teste e validação foram divididos de acordo com a tabela \ref{tab:conjuntos} em 60\%, 20\% e 20\% respectivamente. 
 O janelamento utilizado foi de 24 entradas (6 horas) para prever o próximo valor de preço.
 
 No ARIMA foi utilizado o método de auto arima para encontrar os melhores parâmetros p, d e q com base no primeiro janelamento (treino).
