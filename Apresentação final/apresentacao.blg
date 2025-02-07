@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'apresentacao.blg'
+[35] biber:340> INFO - === Wed Feb  5, 2025, 21:54:16
+[43] Biber.pm:418> INFO - Reading 'apresentacao.bcf'
+[74] Biber.pm:972> INFO - Found 20 citekeys in bib section 0
+[81] Biber.pm:4383> INFO - Processing section 0
+[86] Biber.pm:4574> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[87] bibtex.pm:1713> INFO - LaTeX decoding ...
+[98] bibtex.pm:1518> INFO - Found BibTeX data source 'referencias.bib'
+[181] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[181] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[182] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[182] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[193] bbl.pm:654> INFO - Writing 'apresentacao.bbl' with encoding 'UTF-8'
+[202] bbl.pm:757> INFO - Output to apresentacao.bbl
+[202] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_CgBv/f1acd60b6c57e7ae00f56d747b2cd459_10947.utf8, line 43, warning: 3 characters of junk seen at toplevel
+[202] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_CgBv/f1acd60b6c57e7ae00f56d747b2cd459_10947.utf8, line 137, warning: 3 characters of junk seen at toplevel
+[202] Biber.pm:132> INFO - WARNINGS: 2

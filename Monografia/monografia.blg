@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'monografia.blg'
-[45] biber:340> INFO - === Mon Dec  9, 2024, 10:32:26
-[53] Biber.pm:418> INFO - Reading 'monografia.bcf'
-[97] Biber.pm:972> INFO - Found 51 citekeys in bib section 0
-[104] Biber.pm:4383> INFO - Processing section 0
-[110] Biber.pm:4574> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[112] bibtex.pm:1713> INFO - LaTeX decoding ...
-[142] bibtex.pm:1518> INFO - Found BibTeX data source 'referencias.bib'
-[372] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[372] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[372] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[372] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
-[402] bbl.pm:654> INFO - Writing 'monografia.bbl' with encoding 'UTF-8'
-[427] bbl.pm:757> INFO - Output to monografia.bbl
-[427] Biber.pm:130> WARN - ISBN '053849790' in entry 'stewart' is invalid - run biber with '--validate_datamodel' for details.
-[427] Biber.pm:130> WARN - ISBN '78-8575228418' in entry 'Data' is invalid - run biber with '--validate_datamodel' for details.
-[427] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_uvxz/f1acd60b6c57e7ae00f56d747b2cd459_12898.utf8, line 61, warning: 2 characters of junk seen at toplevel
-[427] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_uvxz/f1acd60b6c57e7ae00f56d747b2cd459_12898.utf8, line 218, warning: 3 characters of junk seen at toplevel
-[427] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_uvxz/f1acd60b6c57e7ae00f56d747b2cd459_12898.utf8, line 548, warning: 3 characters of junk seen at toplevel
-[427] Biber.pm:132> INFO - WARNINGS: 5
+[35] biber:340> INFO - === Thu Feb  6, 2025, 21:13:42
+[42] Biber.pm:418> INFO - Reading 'monografia.bcf'
+[78] Biber.pm:972> INFO - Found 51 citekeys in bib section 0
+[84] Biber.pm:4383> INFO - Processing section 0
+[89] Biber.pm:4574> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[90] bibtex.pm:1713> INFO - LaTeX decoding ...
+[115] bibtex.pm:1518> INFO - Found BibTeX data source 'referencias.bib'
+[298] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[298] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[298] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[298] Biber.pm:4209> INFO - No sort tailoring available for locale 'pt-BR'
+[323] bbl.pm:654> INFO - Writing 'monografia.bbl' with encoding 'UTF-8'
+[344] bbl.pm:757> INFO - Output to monografia.bbl
+[344] Biber.pm:130> WARN - ISBN '053849790' in entry 'stewart' is invalid - run biber with '--validate_datamodel' for details.
+[344] Biber.pm:130> WARN - ISBN '78-8575228418' in entry 'Data' is invalid - run biber with '--validate_datamodel' for details.
+[344] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_KaNS/f1acd60b6c57e7ae00f56d747b2cd459_8818.utf8, line 61, warning: 2 characters of junk seen at toplevel
+[344] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_KaNS/f1acd60b6c57e7ae00f56d747b2cd459_8818.utf8, line 218, warning: 3 characters of junk seen at toplevel
+[344] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_KaNS/f1acd60b6c57e7ae00f56d747b2cd459_8818.utf8, line 548, warning: 3 characters of junk seen at toplevel
+[344] Biber.pm:132> INFO - WARNINGS: 5

@@ -163,8 +163,8 @@ Os parâmetros da RNA foram definidos de forma geral e aplicados uniformemente a
     Parâmetros & Valores \\ \hline
     Batch         & 32               \\ \hline
     Épocas         & 500              \\ \hline
-    Otimizador               & Nadam ($\eta=1*10^{-4}$; $\beta_1=0{,}85$; $\beta_2=0{,}989$; $\epsilon=10^{-6}$)             \\ \hline
-    Fator de decaimento          & 0,5 em 20 épocas de platô            \\ \hline
+    Otimizador               & Nadam ($\eta=1*10^{-4}$; $\beta_1=0{,}85$; $\beta_2=0{,}989$; $\epsilon= 1*10^{-6}$)             \\ \hline
+    Fator de decaimento          & 0,5 em 20 épocas de paciência           \\ \hline
     Função de perda          & Huber              \\ \hline
     \end{tabularx}
     \fonte{Elaborado pelo autor, 2024.}
@@ -173,7 +173,7 @@ Os parâmetros da RNA foram definidos de forma geral e aplicados uniformemente a
 \section{Avaliação} \label{sec:avaliacao}
 Para avaliar a acurácia dos modelos de previsão, é preciso separar em duas categorias: aprendizado de máquina e estatística.
 No aprendizado de máquina (supervisionado) é possivel validar diretamente na função de perda, que no caso é a Huber, enquanto nos estatísticos o cálculo é inerente à fórmula.
-A escolha da \textit{loss function} se deve à sua capacidade de lidar com \textit{outliers} e ruídos observados principalmente em intervalos menores (quinze minutos), \textcite{Jaiswal} sugerem que isso a torna mais robusta em relação as outras métricas em séries temporais.
+A escolha da \textit{loss function} se deve à sua capacidade de lidar com \textit{outliers} e ruídos observados principalmente em intervalos curtos, o qual se encaixa o contexto de quinze minutos \cite{Jaiswal}.
 
 Na comparação final será feita uma combinação de métricas estatísticas 
 que permitem analisar tanto a precisão quanto a robustez das previsões.

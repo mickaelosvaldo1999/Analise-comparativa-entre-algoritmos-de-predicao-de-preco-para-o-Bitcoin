@@ -172,11 +172,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>minyear</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>mininit</bcf:value>
+      <bcf:value>init</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -383,11 +383,11 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquelist</bcf:key>
-      <bcf:value>minyear</bcf:value>
+      <bcf:value>true</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>mininit</bcf:value>
+      <bcf:value>init</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -2428,156 +2428,55 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Bachelier</bcf:citekey>
     <bcf:citekey order="2">Bachelier</bcf:citekey>
+    <bcf:citekey order="3">Fama1965</bcf:citekey>
+    <bcf:citekey order="3">Fama</bcf:citekey>
     <bcf:citekey order="3">Courtault</bcf:citekey>
-    <bcf:citekey order="4">blacksholes</bcf:citekey>
-    <bcf:citekey order="5">blacksholes</bcf:citekey>
-    <bcf:citekey order="6">Pring</bcf:citekey>
-    <bcf:citekey order="7">Ahmed</bcf:citekey>
-    <bcf:citekey order="8">Nakamoto</bcf:citekey>
+    <bcf:citekey order="4">Ariyo</bcf:citekey>
+    <bcf:citekey order="5">Fer</bcf:citekey>
+    <bcf:citekey order="6">Nakamoto</bcf:citekey>
+    <bcf:citekey order="7">Zhang</bcf:citekey>
+    <bcf:citekey order="8">Sousa</bcf:citekey>
     <bcf:citekey order="9">Nakamoto</bcf:citekey>
-    <bcf:citekey order="10">Ledger</bcf:citekey>
-    <bcf:citekey order="11">FakeExchanges</bcf:citekey>
-    <bcf:citekey order="12">Fang</bcf:citekey>
-    <bcf:citekey order="13">Fang</bcf:citekey>
-    <bcf:citekey order="14">Atsalakis</bcf:citekey>
-    <bcf:citekey order="15">Good</bcf:citekey>
-    <bcf:citekey order="16">Sousa</bcf:citekey>
-    <bcf:citekey order="17">Tri</bcf:citekey>
-    <bcf:citekey order="18">Moi</bcf:citekey>
-    <bcf:citekey order="19">Yuan</bcf:citekey>
-    <bcf:citekey order="20">Yuan</bcf:citekey>
-    <bcf:citekey order="21">Blockchain</bcf:citekey>
-    <bcf:citekey order="22">Nakamoto</bcf:citekey>
-    <bcf:citekey order="23">Fer</bcf:citekey>
-    <bcf:citekey order="24">Fer</bcf:citekey>
-    <bcf:citekey order="25">Nakamoto</bcf:citekey>
-    <bcf:citekey order="26">Sousa</bcf:citekey>
-    <bcf:citekey order="27">Sousa</bcf:citekey>
-    <bcf:citekey order="28">Yuan</bcf:citekey>
-    <bcf:citekey order="29">wallet</bcf:citekey>
-    <bcf:citekey order="30">pow</bcf:citekey>
-    <bcf:citekey order="31">Nakamoto</bcf:citekey>
-    <bcf:citekey order="32">web3</bcf:citekey>
-    <bcf:citekey order="33">books</bcf:citekey>
-    <bcf:citekey order="34">books</bcf:citekey>
-    <bcf:citekey order="35">FakeExchanges</bcf:citekey>
-    <bcf:citekey order="36">Box</bcf:citekey>
-    <bcf:citekey order="37">Box</bcf:citekey>
-    <bcf:citekey order="38">Arima</bcf:citekey>
-    <bcf:citekey order="39">Rosenblatt</bcf:citekey>
-    <bcf:citekey order="40">Rosenblatt</bcf:citekey>
-    <bcf:citekey order="41">McCulloch</bcf:citekey>
-    <bcf:citekey order="41">hebb</bcf:citekey>
-    <bcf:citekey order="42">McCulloch</bcf:citekey>
-    <bcf:citekey order="42">hebb</bcf:citekey>
+    <bcf:citekey order="10">Nakamoto</bcf:citekey>
+    <bcf:citekey order="11">Moi</bcf:citekey>
+    <bcf:citekey order="12">Box</bcf:citekey>
+    <bcf:citekey order="13">Box</bcf:citekey>
+    <bcf:citekey order="14">Rosenblatt</bcf:citekey>
+    <bcf:citekey order="15">Rosenblatt</bcf:citekey>
+    <bcf:citekey order="16">Rumelhart</bcf:citekey>
+    <bcf:citekey order="17">Rumelhart</bcf:citekey>
+    <bcf:citekey order="18">Good</bcf:citekey>
+    <bcf:citekey order="19">Good</bcf:citekey>
+    <bcf:citekey order="20">Nakamoto</bcf:citekey>
+    <bcf:citekey order="21">Yuan</bcf:citekey>
+    <bcf:citekey order="22">Yuan</bcf:citekey>
+    <bcf:citekey order="23">Nakamoto</bcf:citekey>
+    <bcf:citekey order="24">Arima</bcf:citekey>
+    <bcf:citekey order="25">multilayer</bcf:citekey>
+    <bcf:citekey order="26">graves</bcf:citekey>
+    <bcf:citekey order="27">gru-image</bcf:citekey>
+    <bcf:citekey order="28">pesquisa</bcf:citekey>
+    <bcf:citekey order="29">pesquisa</bcf:citekey>
+    <bcf:citekey order="30">Bachelier</bcf:citekey>
+    <bcf:citekey order="31">Fama1965</bcf:citekey>
+    <bcf:citekey order="32">Fama</bcf:citekey>
+    <bcf:citekey order="33">Courtault</bcf:citekey>
+    <bcf:citekey order="34">Ariyo</bcf:citekey>
+    <bcf:citekey order="35">Fer</bcf:citekey>
+    <bcf:citekey order="36">Nakamoto</bcf:citekey>
+    <bcf:citekey order="37">Zhang</bcf:citekey>
+    <bcf:citekey order="38">Sousa</bcf:citekey>
+    <bcf:citekey order="39">Moi</bcf:citekey>
+    <bcf:citekey order="40">Box</bcf:citekey>
+    <bcf:citekey order="41">Rosenblatt</bcf:citekey>
+    <bcf:citekey order="42">Rumelhart</bcf:citekey>
     <bcf:citekey order="43">Good</bcf:citekey>
-    <bcf:citekey order="44">Minsky</bcf:citekey>
-    <bcf:citekey order="45">Minsky</bcf:citekey>
-    <bcf:citekey order="46">Rumelhart</bcf:citekey>
-    <bcf:citekey order="47">Rumelhart</bcf:citekey>
-    <bcf:citekey order="48">multilayer</bcf:citekey>
-    <bcf:citekey order="49">Good</bcf:citekey>
-    <bcf:citekey order="50">Hanc</bcf:citekey>
-    <bcf:citekey order="51">graves</bcf:citekey>
-    <bcf:citekey order="52">graves</bcf:citekey>
-    <bcf:citekey order="53">graves</bcf:citekey>
-    <bcf:citekey order="54">Good</bcf:citekey>
-    <bcf:citekey order="55">graves</bcf:citekey>
-    <bcf:citekey order="56">graves</bcf:citekey>
-    <bcf:citekey order="57">stewart</bcf:citekey>
-    <bcf:citekey order="58">stewart</bcf:citekey>
-    <bcf:citekey order="59">Good</bcf:citekey>
-    <bcf:citekey order="60">Bengio</bcf:citekey>
-    <bcf:citekey order="61">Exp</bcf:citekey>
-    <bcf:citekey order="62">Hoch</bcf:citekey>
-    <bcf:citekey order="63">Hoch</bcf:citekey>
-    <bcf:citekey order="64">Gers</bcf:citekey>
-    <bcf:citekey order="65">graves</bcf:citekey>
-    <bcf:citekey order="66">Schuster</bcf:citekey>
-    <bcf:citekey order="67">Schuster</bcf:citekey>
-    <bcf:citekey order="68">bilstm</bcf:citekey>
-    <bcf:citekey order="69">bilstm</bcf:citekey>
-    <bcf:citekey order="70">Cho</bcf:citekey>
-    <bcf:citekey order="71">Cho</bcf:citekey>
-    <bcf:citekey order="72">gru-image</bcf:citekey>
-    <bcf:citekey order="73">Esling</bcf:citekey>
-    <bcf:citekey order="74">Nison</bcf:citekey>
-    <bcf:citekey order="75">Nison</bcf:citekey>
-    <bcf:citekey order="76">Fer</bcf:citekey>
-    <bcf:citekey order="77">Fer</bcf:citekey>
-    <bcf:citekey order="78">Tri</bcf:citekey>
-    <bcf:citekey order="79">Tri</bcf:citekey>
-    <bcf:citekey order="80">lstmvsgru</bcf:citekey>
-    <bcf:citekey order="81">lstmvsgru</bcf:citekey>
-    <bcf:citekey order="82">Siami</bcf:citekey>
-    <bcf:citekey order="83">Siami</bcf:citekey>
-    <bcf:citekey order="84">Zhang</bcf:citekey>
-    <bcf:citekey order="85">Zhang</bcf:citekey>
-    <bcf:citekey order="86">lstmvsgru</bcf:citekey>
-    <bcf:citekey order="87">Fer</bcf:citekey>
-    <bcf:citekey order="88">Siami</bcf:citekey>
-    <bcf:citekey order="89">Tri</bcf:citekey>
-    <bcf:citekey order="90">pesquisa</bcf:citekey>
-    <bcf:citekey order="91">pesquisa</bcf:citekey>
-    <bcf:citekey order="92">Sliding</bcf:citekey>
-    <bcf:citekey order="93">Sliding</bcf:citekey>
-    <bcf:citekey order="94">ramalho</bcf:citekey>
-    <bcf:citekey order="95">Data</bcf:citekey>
-    <bcf:citekey order="96">maosaobra</bcf:citekey>
-    <bcf:citekey order="97">Good</bcf:citekey>
-    <bcf:citekey order="98">Good</bcf:citekey>
-    <bcf:citekey order="99">Jaiswal</bcf:citekey>
-    <bcf:citekey order="100">Bachelier</bcf:citekey>
-    <bcf:citekey order="101">Courtault</bcf:citekey>
-    <bcf:citekey order="102">blacksholes</bcf:citekey>
-    <bcf:citekey order="103">Pring</bcf:citekey>
-    <bcf:citekey order="104">Ahmed</bcf:citekey>
-    <bcf:citekey order="105">Nakamoto</bcf:citekey>
-    <bcf:citekey order="106">Ledger</bcf:citekey>
-    <bcf:citekey order="107">FakeExchanges</bcf:citekey>
-    <bcf:citekey order="108">Fang</bcf:citekey>
-    <bcf:citekey order="109">Atsalakis</bcf:citekey>
-    <bcf:citekey order="110">Good</bcf:citekey>
-    <bcf:citekey order="111">Sousa</bcf:citekey>
-    <bcf:citekey order="112">Tri</bcf:citekey>
-    <bcf:citekey order="113">Moi</bcf:citekey>
-    <bcf:citekey order="114">Yuan</bcf:citekey>
-    <bcf:citekey order="115">Blockchain</bcf:citekey>
-    <bcf:citekey order="116">Fer</bcf:citekey>
-    <bcf:citekey order="117">wallet</bcf:citekey>
-    <bcf:citekey order="118">pow</bcf:citekey>
-    <bcf:citekey order="119">web3</bcf:citekey>
-    <bcf:citekey order="120">books</bcf:citekey>
-    <bcf:citekey order="121">Box</bcf:citekey>
-    <bcf:citekey order="122">Arima</bcf:citekey>
-    <bcf:citekey order="123">Rosenblatt</bcf:citekey>
-    <bcf:citekey order="124">McCulloch</bcf:citekey>
-    <bcf:citekey order="125">hebb</bcf:citekey>
-    <bcf:citekey order="126">Minsky</bcf:citekey>
-    <bcf:citekey order="127">Rumelhart</bcf:citekey>
-    <bcf:citekey order="128">multilayer</bcf:citekey>
-    <bcf:citekey order="129">Hanc</bcf:citekey>
-    <bcf:citekey order="130">graves</bcf:citekey>
-    <bcf:citekey order="131">stewart</bcf:citekey>
-    <bcf:citekey order="132">Bengio</bcf:citekey>
-    <bcf:citekey order="133">Exp</bcf:citekey>
-    <bcf:citekey order="134">Hoch</bcf:citekey>
-    <bcf:citekey order="135">Gers</bcf:citekey>
-    <bcf:citekey order="136">Schuster</bcf:citekey>
-    <bcf:citekey order="137">bilstm</bcf:citekey>
-    <bcf:citekey order="138">Cho</bcf:citekey>
-    <bcf:citekey order="139">gru-image</bcf:citekey>
-    <bcf:citekey order="140">Esling</bcf:citekey>
-    <bcf:citekey order="141">Nison</bcf:citekey>
-    <bcf:citekey order="142">lstmvsgru</bcf:citekey>
-    <bcf:citekey order="143">Siami</bcf:citekey>
-    <bcf:citekey order="144">Zhang</bcf:citekey>
-    <bcf:citekey order="145">pesquisa</bcf:citekey>
-    <bcf:citekey order="146">Sliding</bcf:citekey>
-    <bcf:citekey order="147">ramalho</bcf:citekey>
-    <bcf:citekey order="148">Data</bcf:citekey>
-    <bcf:citekey order="149">maosaobra</bcf:citekey>
-    <bcf:citekey order="150">Jaiswal</bcf:citekey>
+    <bcf:citekey order="44">Yuan</bcf:citekey>
+    <bcf:citekey order="45">Arima</bcf:citekey>
+    <bcf:citekey order="46">multilayer</bcf:citekey>
+    <bcf:citekey order="47">graves</bcf:citekey>
+    <bcf:citekey order="48">gru-image</bcf:citekey>
+    <bcf:citekey order="49">pesquisa</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

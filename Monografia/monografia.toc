@@ -8,50 +8,50 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{14}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Justificativa}{14}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Proposta}{15}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo geral}{15}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos específicos}{15}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Estrutura do documento}{16}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Justificativa}{15}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Proposta}{16}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo geral}{16}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos específicos}{16}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Estrutura do documento}{17}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentação teórica}}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Bitcoin}{17}{section.2.1}%
-\contentsline {section}{\numberline {2.2}\textit {Autoregressive Integrated Moving Average}}{19}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Redes neurais artificiais}{19}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}\textit {Recurrent Neural Networks}}{20}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}\textit {Long-Short Term Memory}}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}\textit {Bidirectional Long Short-Term Memory}}{21}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}\textit {Gated Recurrent Unit}}{22}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}\textit {Séries temporais}}{22}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Estado da arte}{23}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentação teórica}}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Bitcoin}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}\textit {Autoregressive Integrated Moving Average}}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Redes neurais artificiais}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}\textit {Recurrent Neural Networks}}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}\textit {Long-Short Term Memory}}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}\textit {Bidirectional Long Short-Term Memory}}{22}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}\textit {Gated Recurrent Unit}}{23}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}\textit {Séries temporais}}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Estado da arte}{24}{section.2.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Solução proposta}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Coleta de dados}{25}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Pré processamento}{26}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Validação de completude}{26}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Normalização}{26}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Limitações e diferenças entre algoritmos}{27}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Janelamento}{27}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Divisão em conjuntos}{27}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Implementação}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Arquitetura}{28}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Configuração}{29}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Avaliação}{29}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Materiais e Tecnologias}{31}{section.3.8}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Solução proposta}{26}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Coleta de dados}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Pré processamento}{27}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Validação de completude}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Normalização}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Limitações e diferenças entre algoritmos}{28}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Janelamento}{28}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Divisão em conjuntos}{28}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Implementação}{29}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Arquitetura}{29}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Configuração}{30}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Avaliação}{30}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Materiais e Tecnologias}{32}{section.3.8}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e discussão}}{32}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Validação de completude}{32}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Tratamento e pré processamento de dados}{32}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Treinamento dos modelo}{32}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Visualização de resultados}{33}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}\textit {Long Short-Term Memory}}{33}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}\textit {Bidirectional Long Short-Term Memory}}{34}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}\textit {Gated Recurrent Unit}}{34}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}\textit {Auto Regressive Integrated Moving Average}}{35}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Análise de resultados}{35}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados e discussão}}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Validação de completude}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tratamento e pré processamento de dados}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Treinamento dos modelo}{33}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Visualização de resultados}{34}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}\textit {Long Short-Term Memory}}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}\textit {Bidirectional Long Short-Term Memory}}{35}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}\textit {Gated Recurrent Unit}}{35}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}\textit {Auto Regressive Integrated Moving Average}}{36}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Análise de resultados}{36}{section.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{37}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{38}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{0em}
-\contentsline {chapter}{REFERÊNCIAS}{38}{section*.45}%
+\contentsline {chapter}{REFERÊNCIAS}{39}{section*.45}%

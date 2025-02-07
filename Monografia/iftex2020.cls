@@ -750,38 +750,7 @@ Trabalho de conclusão de curso apresentado ao Curso de {\TipoCurso} em {\Curso}
 % Folha de aprovação impressa para assinatura%
 \newcommand{\ImprimirFolhaAprovacao}{%
   \begin{folhadeaprovacao}%
-  \begin{center}%
-    {\Autor}%
-    \vfill%
-    {\large{\textbf{\MakeUppercase{\Titulo}}}}%
-    \vfill%
-    \hspace{.5\textwidth}%
-    \begin{minipage}{.5\textwidth}%
-        {\Preambulo}%
-    \end{minipage}%
-    \vspace*{3em}%
-    \par{Aprovado em {\@day} de {\@month} de {\@year} pela banca examinadora:}%
-    \par%
-    \vspace*{1em}%
-    \ifthenelse{\not\equal{\Orientador}{}}{%
-      {\Orientador} -- {\SiglaInstituicao} -- {\Unidade} -- ({\RotuloOrientador})\\%
-    }{}%
-    \ifthenelse{\not\equal{\Coorientador}{}}{%
-      {\Coorientador} -- {\InstituicaoCoorientador} -- ({\RotuloCoorientador})\\%
-    }{}%
-    \count1=0%
-    \@whilenum \count1<\@membrobancaconta \do {%
-        {\csname NomeMembroBanca:\the\count1 \endcsname} %
-        -- {\csname LocalMembroBanca:\the\count1 \endcsname} \\%
-      \advance\count1 by 1%
-    }%
-    \ifthenelse{\isundefined{\AssinaturasAprovacao}}{}{%
-      \includegraphics[width=\linewidth]{\AssinaturasAprovacao}%
-    }%
-    \vfill%
-    {\Local}\par%
-    {\@year}%
-  \end{center}%
+    \includepdf[pages=-]{output.pdf}
   \end{folhadeaprovacao}%
 }% fim da \ImprimirFolhaAprovacao
 
