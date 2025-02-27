@@ -1,19 +1,22 @@
-Neste estudo foram exploradas diferentes métodos para a previsão do preço do Bitcoin em intervalos de 15 minutos, comparando métodos estatísticos e RNNs. 
+Neste estudo, foram explorados diferentes métodos para a previsão do preço do Bitcoin em intervalos de 15 minutos, comparando métodos estatísticos e RNNs. 
 O \textit{Dataset} continha dados de preço, volume e trocas de janeiro a setembro de 2020, um período de estabilidade no mercado. Desse modo, ncluiu uma análise de desempenho de modelos como ARIMA, GRU, LSTM e BiLSTM, aplicados às séries temporais propostas.
-As arquiteturas supervisionadas e estatisticas foram separadas levando em consideração as limitações de cada uma, como a necessidade de janelamento e a quantidade de \textit{Features}.
+As arquiteturas supervisionadas e estatísticas foram separadas levando-se em consideração as limitações de cada uma, como a necessidade de janelamento e a quantidade de \textit{Features}.
 
-O modelo ARIMA, conhecido por sua robustez em séries lineares, obteve os melhores resultados no contexto, superando ligeiramente os modelos de rede neural ao apresentar previsões precisas e consistentes.
-Porém, o fato das neurais não performarem tão bem quanto seu competidor estatístico não significa que elas não possam ser utilizadas, mas sim que precisam de mais ajustes e engenharia de \textit{Features} para melhorar a previsão.
+O modelo ARIMA obteve os melhores resultados no contexto, superando ligeiramente os modelos supervisionados ao apresentar previsões precisas e consistentes.
+Porém, o fato de as redes neurais não performarem tão bem quanto seu competidor estatístico não significa que elas não possam ser utilizadas, mas sim que precisam de mais ajustes ou engenharia de \textit{Features}. Projetar as \textit{Features} envolve adicionar colunas relevantes para o modelo, como menções em redes sociais, pesquisas em plataformas e afins.
 
 Como continuidade para este trabalho, sugere-se a investigação de abordagens híbridas que combinem a capacidade preditiva do ARIMA com a sensibilidade temporal das redes neurais. Além disso, é possível expandir os testes para outros períodos e ativos financeiros. 
 
 Outras recomendações incluem:
 
 \begin{itemize}
-    \item Realizar ajustes nas configurações das RNNs, como o número de camadas, unidades ocultas, função de ativação e hiperparâmetros
+    \item Realizar ajustes nas configurações das RNNs, como o número de camadas, unidades ocultas, função de ativação e hiperparâmetros;
     \item Identificar arquiteturas ainda mais adaptadas à volatilidade;
     \item Aplicar a metodologia a outras criptomoedas, intervalos de tempo e ativos financeiros para validar a generalização dos resultados;
     \item Comparar o desempenho com técnicas mais recentes, considerando diferentes condições de mercado e intervalos temporais.
 \end{itemize}
 
-Portanto, este estudo cumpre os objetivos propostos e contribui para a compreensão do comportamento do mercado de criptomoedas e a aplicação de técnicas de previsão de séries temporais.
+Portanto, este estudo cumpriu os objetivos propostos, contribuindo para a compreensão do comportamento do mercado de criptomoedas e a aplicação de técnicas de previsão de séries temporais.
+Os resultados obtidos podem ser utilizados como base para implementações futuras de sistemas de negociação automatizados e a tomada de decisões financeiras mais assertivas. 
+Porém, a lucratividade não se resume a erros de previsão, mas também a estratégias de gerenciamento de risco e capital.
+Os modelos disponibilizados não devem ser utilizados como recomendação de investimento, e sim como ferramentas de apoio à análise de mercado.

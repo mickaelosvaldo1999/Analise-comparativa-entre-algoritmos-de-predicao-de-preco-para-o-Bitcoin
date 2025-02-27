@@ -782,6 +782,74 @@
       \verb https://doi.org/10.1145/2379776.2379788
       \endverb
     \endentry
+    \entry{Fama}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{1}
+      \field{title}{Random Walks in Stock Market Prices}
+      \field{volume}{51}
+      \field{year}{1995}
+      \field{pages}{75\bibrangedash 80}
+      \range{pages}{6}
+    \endentry
+    \entry{Fama1965}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Business}
+      \field{title}{The Behavior of Stock-Market Prices}
+      \field{volume}{38}
+      \field{year}{1965}
+      \field{pages}{34}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:155021451
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:155021451
+      \endverb
+    \endentry
     \entry{Fang}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9e59321071360b5eae3b0c6c6c975786}{%

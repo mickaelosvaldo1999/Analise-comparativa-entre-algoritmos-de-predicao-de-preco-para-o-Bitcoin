@@ -750,7 +750,7 @@ Trabalho de conclusão de curso apresentado ao Curso de {\TipoCurso} em {\Curso}
 % Folha de aprovação impressa para assinatura%
 \newcommand{\ImprimirFolhaAprovacao}{%
   \begin{folhadeaprovacao}%
-    \includepdf[pages=-]{output.pdf}
+    \includepdf[pages=-]{aprovacao.pdf}
   \end{folhadeaprovacao}%
 }% fim da \ImprimirFolhaAprovacao
 
